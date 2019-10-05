@@ -95,13 +95,62 @@ gffcompare.py S T [-i -m -p]
 
 * -p    
   **Gene Name List File**: Directory of file with gene names (1 per line) to be used in generating the counts table. Default is path/proteinList.txt. A Human Cytomegalovirus Protein List is provided as an example.
-   
+
+## Algorith Notes
+
+### Reading files
+* When reading GFF files, any line starting with ## will be skipped
+
+* CDS, mRNA, gene, misc_features are stored as lists of tuples (each feature is 1 tuple)
+
+### Matching
+
+For each CDS in the sample file, if there is no perfect match at the starting or ending positions, any possible matches with template CDS will be logged and filtered earlier (see Filter section)
+
+* Nested loop of sample CDS (outer loop) and template CDS (inner loop)
+
+  *	If start & end positions are a perfect match, start looping for next CDS in sample file
+
+  *	If only 1 perfect match in either starting or ending position, log as mismatch and move on to next sample CDS  
+
+  *	If no perfect match at either start or stop position, implement Fuzzy filter
+
+    *	Fuzzy Filter allows for the starting and ending positions of a CDS to be within a threshold, which will increase with each    loop of the filter. The total iterations of the filter and the mismatch permissibility can be set up by the user (defaults are 10 and 3 respectively)
+
+    *	E.g. 1st round with default parameters, the filter would have a mismatch allowance of +/-3 nucleotides, 2nd iteration would be +/- 6, final iteration would be +/-30 (10 iterations total)
+
+  *	If a starting OR ending position are within range, add them to possible mismatches
+
+*	If no possible matches are found, log the inability to find matching CDS
+
+### Filtering mismatches
+
+For CDS that have multiple possible matches (result of matching filter). If any of the possible matches are below mismatch permissibility (default 3), no mismatches will be logged for that CDS
+
+### Gene Counter
+
+Goes through each Gene/Protein of the input file and counts the features (CDS, mRNA, gene, misc_features) of the Sample and Template files 
+
+A regex filter* is to count to match protein names between gene/protein list and features
+
+**Regex Filter:**  "(?<![A-Z]|[a-z]|[0-9]| )(?<!Note=)" + gene + "(?![A-Z]|[a-z]|[0-9]| )"
+
+gene : the gene to search for, eg RL1. Determined from protein name file
+
+(?<![A-Z]|[a-z]|[0-9]| ): make sure that the gene is not *preceded* by letters or characters, eg dont match with 1RL1 or ARL1. Space is to prevent 'comment' fields from being captured (see below)
+
+(?<!Note=): make sure match is not preceded by 'Note=' in gff file, as some ncbi files include the 'parent' gene which can create fake duplicate pattern matching and inflate count of parent gene.
+
+(?![A-Z]|[a-z]|[0-9]): as above, make sure that the gene is not *followed* by letters or characters,  eg dont match with RL11 or RL1A
+
+Overall when searching for **RL1**, the following should *NOT* match:
+1RL1; ARL1; ;RL11 ;RL1A Note=RL1_ BRL1A etc
+
+The following should match:
+;RL1_ =RL1_ =RL1;
    
 ## TODO (Low Priority)
 
 Rename headers in Gene Counts file (as well as name of file itself) for consistency
 
-Short blurb on how matching works
-
-Diagram???
    
