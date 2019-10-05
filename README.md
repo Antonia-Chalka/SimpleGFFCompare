@@ -10,6 +10,21 @@ Intended usage is to compare two gff files which should be near identical, e.g. 
 
 Sample GFF file is compared against the Template GFF one.
 
+* **Gene/Protein List File**
+  Used for outputting counts of GFF features for each gene/protein name in the file. Each name should be a new line, eg:
+   ```
+  IRS1
+  RL10
+  RL11
+  RL12
+  RL13
+  RL1
+  RL5A
+  RL6
+  ...
+   ```
+
+
 ## Output
 
 * **Strain Stats File**: Contains summary counts of features and mimatches across sample and template files. 
