@@ -23,7 +23,7 @@ parser.add_argument('-p' '--GeneNameListFile', metavar='P', default=str(os.getcw
 argument = parser.parse_args()
 
 IterationNumber = argument.IterationNumber 
-mismatch_permissibility = argument.MismatchPermessibility
+mismatch_permissibility = argument.mismatch_permissibility
 
 
 # Return real, absolute, file path (eg ~/directory -> /home/user/directory)
