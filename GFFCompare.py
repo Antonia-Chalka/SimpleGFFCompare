@@ -21,10 +21,8 @@ parser.add_argument('-p' '--GeneNameListFile', metavar='P', default=str(os.getcw
                     help='Directory of file with gene names (1 per line) to be used in generating the counts table. ' +
                          'Default is proteinList.txt.')
 argument = parser.parse_args()
-
 IterationNumber = argument.IterationNumber 
 mismatch_permissibility = argument.mismatch_permissibility
-
 
 # Return real, absolute, file path (eg ~/directory -> /home/user/directory)
 def make_path_sane(path):
@@ -34,19 +32,60 @@ def make_path_sane(path):
     path = os.path.abspath(path)
     return path
 
-
 SampleFile = open(make_path_sane(argument.SampleFileName), "r")
 TemplateFile = open(make_path_sane(argument.TemplateFileName), "r")
 
 # Set up custom names for output files: strainName_mismatch.txt
-StrainName = os.path.basename(argument.TemplateFileName)
-LogFile = open(StrainName + "_" + "Log.txt", "w")
-MismatchFile = open(StrainName + "_" + "Mismatch.txt", "w")
-StrainStatsFile = open(StrainName + "_" + "StrainStats.txt", "w")
+os.makedirs(os.path.dirname("./GFFCompare_Output/"), exist_ok=True) # Make output folder if i does not exist
+StrainName = os.path.basename(argument.SampleFileName)
+LogFile = open("./GFFCompare_Output/" + StrainName + "_" + "Log.txt", "w")
+MismatchFile = open("./GFFCompare_Output/" + StrainName + "_" + "Mismatch.txt", "w")
+StrainStatsFile = open("./GFFCompare_Output/" + StrainName + "_" + "StrainStats.txt", "w")
+ProteinOutputFile = open("./GFFCompare_Output/" + StrainName + "_" + "GeneCounts.txt", "w")
+MismatchStatsOutputFile = open("./GFFCompare_Output/" + StrainName + "_" + "MismatchStats.csv", "w")
+
+# Stats (False Positive, False Negative, True Positive)
+def calc_stats_lenght(sample_start, sample_stop, template_start, template_stop):
+    FP=0
+    FN=0
+    # mismatch = sample length - template lenght
+    mismatch = ((sample_stop - sample_start) + 1) - ((template_stop - template_start) + 1)
+    if mismatch < 0: # template longer
+        FN = abs(mismatch)
+    elif mismatch > 0: # sample longer
+        FP = mismatch
+
+    TP = (template_stop - template_start) - FN
+    return FP, FN, TP
+
+def calc_stats_position(sample_start, sample_stop, template_start, template_stop):
+    FP = 0
+    FN = 0
+    
+    start_mismatch = template_start - sample_start
+    if start_mismatch < 0: # template longer
+        FN  += abs(start_mismatch)
+    elif start_mismatch > 0: # sample longer
+        FP += start_mismatch
+
+    stop_mismatch = sample_stop - template_stop
+    if stop_mismatch < 0: # template longer
+        FN += abs(stop_mismatch)
+    elif stop_mismatch > 0: # sample longer
+        FP += stop_mismatch
+    #TP = template lenght - FN total
+    TP = ((template_stop - template_start) +1) - FN
+    return FP, FN, TP
+
+FP_length = 0
+FN_length = 0
+TP_length = 0
+FP_position = 0
+FN_position = 0
+TP_position = 0
 
 # Reading Sample file
 LogFile.write("Reading " + argument.SampleFileName + " as sample file... \n")
-
 SampleCDSs = []
 SamplemRNAs = []
 SampleGenes = []
@@ -72,7 +111,6 @@ SampleFile.close()
 
 # Log stats of sample file
 LogFile.write("GGF Sample file read. \n")
-
 sample_total_lines = len(SampleCDSs) + len(SamplemRNAs) + len(SampleGenes) + len(SampleMiscFeatures) + len(SampleOther)
 LogFile.write("Total lines: " + str(sample_total_lines) + "\n" +
               "CDC lines: " + str(len(SampleCDSs)) + "\n" +
@@ -109,9 +147,7 @@ TemplateFile.close()
 
 # Log stats of template file
 LogFile.write("GFF Template File read.\n")
-
-template_total_lines = len(TemplateCDSs) + len(TemplatemRNAs) + len(TemplateGenes) + len(TemplateMiscFeatures) \
-                      + len(TemplateOther)
+template_total_lines = len(TemplateCDSs) + len(TemplatemRNAs) + len(TemplateGenes) + len(TemplateMiscFeatures) + len(TemplateOther)
 LogFile.write("Total lines: " + str(template_total_lines) + "\n" +
               "CDC lines: " + str(len(TemplateCDSs)) + "\n" +
               "mRNA lines: " + str(len(TemplatemRNAs)) + "\n" +
@@ -121,13 +157,11 @@ LogFile.write("Total lines: " + str(template_total_lines) + "\n" +
 
 # Comparison & Detection of mismatches (start position is 3 in list, stop is 4)
 LogFile.write("Beginning comparison of CDS features..." + "\n")
-
 # For stats later:
 perfect_matches = 0
 single_matches = 0
 fuzzy_matches = 0
 no_matches = 0
-
 mismatches = []  # List to put lists of possible matches in and filter later on
 
 for CDS1 in SampleCDSs:  # Iterate for each cds in sample file
@@ -145,7 +179,17 @@ for CDS1 in SampleCDSs:  # Iterate for each cds in sample file
             mismatch = []  # Empty mismatch list
             perfect_matches += 1
             
-            break  # Begin new cds1 loop
+            FP, FN, TP = calc_stats_lenght(int(CDS1[3]), int(CDS1[4]), int(CDS2[3]), int(CDS2[4]))
+            FP_length += FP
+            FN_length += FN
+            TP_length += TP
+
+            FP, FN, TP = calc_stats_position(int(CDS1[3]), int(CDS1[4]), int(CDS2[3]), int(CDS2[4]))
+            FP_position += FP
+            FN_position += FN
+            TP_position += TP
+
+            break
 
     # If no perfect match, search for single start/stop perfect matches.
     # Allow for multiple possible matches to be detected (no breaks)
@@ -159,7 +203,7 @@ for CDS1 in SampleCDSs:  # Iterate for each cds in sample file
                               "Stop positions: " + str(CDS1[4]) + " " + str(CDS2[4]) + "\n")
                 mismatch.append(CDS2)
                 found_pair = True
-            if CDS1[3] != CDS2[3] and CDS1[4] == CDS2[4]:  # Mismatch at start
+            elif CDS1[3] != CDS2[3] and CDS1[4] == CDS2[4]:  # Mismatch at start
                 LogFile.write("Found match with ending position: " + str(CDS2) + "\n" +
                               "Start positions: " + str(CDS1[3]) + " " + str(CDS2[3]) + "\n" +
                               "Stop positions: " + str(CDS1[4]) + " " + str(CDS2[4]) + "\n")
@@ -167,6 +211,7 @@ for CDS1 in SampleCDSs:  # Iterate for each cds in sample file
                 found_pair = True
         if found_pair is True:
             single_matches += 1
+
             
     if found_pair is False:  # No perfect matches for either start and/or stop positions
         LogFile.write("No exact match for either start and stop positions found. Implementing fuzzy filter...\n")
@@ -201,19 +246,20 @@ for CDS1 in SampleCDSs:  # Iterate for each cds in sample file
                                   "Stop positions: " + str(CDS1[4]) + " " + str(CDS2[4]) + "\n")
                     mismatch.append(CDS2)
                     found_pair = True
+
             if found_pair is True:
                 fuzzy_matches += 1
                 break
-                
+    # if others cds have been added to initial list: [CDS1, CDS2] /[CDS1, CDS2, CDS2,...] -> len >1).
+    # No matches (len=1), have already been added to mismatch file in above if statement
+    if len(mismatch) > 1:
+        mismatches.append(mismatch)
+
     if found_pair is False:  # No matches found
         LogFile.write("Could not find any match, even with fuzzy filter. Moving on to next CDS in file...\n")
         MismatchFile.write("WARNING: No matches found for:" + str(CDS1) + ".\n \n") 
         no_matches += 1
 
-    # if others cds have been added to initial list: [CDS1, CDS2] /[CDS1, CDS2, CDS2,...] -> len >1).
-    # No matches (len=1), have already been added to mismatch file in above if statement
-    if len(mismatch) > 1:
-        mismatches.append(mismatch)
         
 # Matching stats
 LogFile.write("\nComparison has been completed.\n" +
@@ -263,6 +309,19 @@ for mismatch in mismatches:
                                "Mismatch Length \tStart: " + str(mismatch_length_start) + "\tStop: " +
                                str(mismatch_length_stop) + "\n")
             TotalMismatchLength += mismatch_length_start + mismatch_length_stop
+
+            # TODO FP FN AND TP
+            FP, FN, TP = calc_stats_lenght(int(CDS1[3]), int(CDS1[4]), int(CDS2[3]), int(CDS2[4]))
+            FP_length += FP
+            FN_length += FN
+            TP_length += TP
+
+            FP, FN, TP = calc_stats_position(int(CDS1[3]), int(CDS1[4]), int(CDS2[3]), int(CDS2[4]))
+            FP_position += FP
+            FN_position += FN
+            TP_position += TP
+
+
     else:
         MismatchesDiscarded += 1
 
@@ -292,12 +351,8 @@ StrainStatsFile.write("Strain\t" +
                       "Total_Mismatch_length(Logged_Only)\t" +
                       "Avg_Mismatch_Length\n"
                       )
-
-
 def avg_mismatch_length_calc(n, d):
     return n / d if d else 0
-
-
 StrainStatsFile.write(StrainName + "\t" +
                       str(len(SampleCDSs)) + "\t" +
                       str(len(TemplateCDSs)) + "\t" +
@@ -318,18 +373,15 @@ StrainStatsFile.write(StrainName + "\t" +
                       str(avg_mismatch_length_calc(TotalMismatchLength, MismatchesLogged)) + "\n"
                       )
 
-# Protein Table Output
+# Protein Table Output. Populate protein list with protein names. Does NOT check for duplicates
 LogFile.write("\nBeginning gene counter...\n")
-
-# Populate protein list with protein names. Does NOT check for duplicates
-LogFile.write("Getting gene names from file...\n")
+LogFile.write("Getting gene names from file...\n")# 
 GeneListFile = open(os.path.dirname(os.path.abspath(__file__)) + "/proteinList.txt", "r")
-GeneNames = []
 
+GeneNames = []
 with GeneListFile:
     for line in GeneListFile:
         GeneNames.append(line.strip())
-
 
 # Counter method
 def feature_counter(feature_list, count_gene):
@@ -354,10 +406,7 @@ def feature_counter(feature_list, count_gene):
             counter += 1
     return counter
 
-
 # File Writing
-ProteinOutputFile = open(StrainName + "_" + "GeneCounts.txt", "w")
-
 LogFile.write("Writing headers to gene counter output file...\n")
 ProteinOutputFile.write("Gene\t" +  # Headers
                         "Num_CDS_Automated\t" +
@@ -383,7 +432,47 @@ for gene in GeneNames:
                             str(feature_counter(TemplateMiscFeatures, gene) +
                                 feature_counter(TemplateOther, gene)) + "\t" +
                             str(feature_counter(LoggedMismatches, gene)) + "\n")
+
+# Mismatch Output File
+MismatchStatsOutputFile.write("Strain\t" +  # Headers
+                        "FP_Lenght\t" +
+                        "FN_Lenght\t" +
+                        "TP_Lenght\t" +
+                        "Sensitivity_Length\t" +
+                        "FDR_Length\t" +
+                        "FP_Position\t" +
+                        "FN_Position\t" +
+                        "TP_Position\t" +
+                        "Sensitivity_Position\t" +
+                        "FDR_Position\t" + "\n")
+
+MismatchStatsOutputFile.write(StrainName + "\t" +
+                            str(FP_length) + "\t" +
+                            str(FN_length) + "\t" +
+                            str(TP_length) + "\t" +
+                            str(TP_length / (TP_length + FN_length)) + "\t" +
+                            str(FP_length / (FP_length + TP_length)) + "\t" +
+                            str(FP_position) + "\t" +
+                            str(FN_position) + "\t" +
+                            str(TP_position) + "\t" +
+                            str(TP_position / (TP_position + FN_position)) + "\t" +
+                            str(FP_position / (FP_position + TP_position)) + "\n")
+
+
 # File handling
 ProteinOutputFile.close()
 LogFile.close()
 MismatchFile.close()
+MismatchStatsOutputFile.close()
+
+# $filePath = Get-ChildItem "C:\Users\s1438773\Onedrive - University of Edinburgh\Msc\GFFCompare\data\resultGracy" -Filter *.fasta
+# cd  "C:\Users\s1438773\Onedrive - University of Edinburgh\Msc\GFFCompare\"
+#  ForEach($file in $filePath){
+#    Write-Host $file
+#    python GFFCompare.py .\data\resultGRACy\$file .\data\NCBI\NCBI_GFF\$file -m 0
+#}
+# copy *.csv merged.csv 
+
+
+
+
