@@ -1,0 +1,1192 @@
+Reading AY446894.2.fasta.gff as sample file... 
+GGF Sample file read. 
+Total lines: 513
+CDC lines: 188
+mRNA lines: 20
+Gene lines: 173
+Misc. Features lines: 0
+Other lines: 132
+ 
+Reading AY446894.2.fasta_annotation.gff as template file... 
+GFF Template File read.
+Total lines: 526
+CDC lines: 187
+mRNA lines: 168
+Gene lines: 169
+Misc. Features lines: 2
+Other lines: 0
+ 
+Beginning comparison of CDS features...
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '1367', '2299', '.', '+', '0', 'ID=cds-AAR31561.1;Parent=rna-HHV5wtgp001;Dbxref=NCBI_GP:AAR31561.1;Name=AAR31561.1;Note=RL1 family;gbkey=CDS;gene=RL1;locus_tag=HHV5wtgp001;product=protein RL1;protein_id=AAR31561.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '1367', '2299', '.', '+', '.', 'ID=RL1_cds1;Parent=RL1_mRNA;Name=RL1.1;Product=RL1\n')
+Start positions: 1367 1367
+Stop positions: 2299 2299
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '5389', '5676', '.', '-', '0', 'ID=cds-AAR31562.1;Parent=rna-HHV5wtgp002;Dbxref=NCBI_GP:AAR31562.1;Name=AAR31562.1;Note=RL11 family;gbkey=CDS;gene=RL5A;locus_tag=HHV5wtgp002;product=protein RL5A;protein_id=AAR31562.1\n')
+No exact match for both start and stop positions found.Iterating for start or stop only matches...
+Found match with starting position: ('AY446894.2', 'exonerate', 'CDS', '5389', '5673', '.', '-', '.', 'ID=RL5A_cds1;Parent=RL5A_mRNA;Name=RL5A.1;Product=RL5A\n')
+Start positions: 5389 5389
+Stop positions: 5676 5673
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '6025', '6360', '.', '-', '0', 'ID=cds-AAR31563.1;Parent=rna-HHV5wtgp003;Dbxref=NCBI_GP:AAR31563.1;Name=AAR31563.1;Note=RL11 family;gbkey=CDS;gene=RL6;locus_tag=HHV5wtgp003;product=protein RL6;protein_id=AAR31563.1\n')
+No exact match for both start and stop positions found.Iterating for start or stop only matches...
+Found match with starting position: ('AY446894.2', 'exonerate', 'CDS', '6025', '6357', '.', '-', '.', 'ID=RL6_cds1;Parent=RL6_mRNA;Name=RL6.1;Product=RL6\n')
+Start positions: 6025 6025
+Stop positions: 6360 6357
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '7912', '8184', '.', '-', '0', 'ID=cds-AEJ33666.1;Parent=rna-HHV5wtgr003;Dbxref=NCBI_GP:AEJ33666.1;Name=AEJ33666.1;gbkey=CDS;gene=RL8A;product=protein RL8A;protein_id=AEJ33666.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '7912', '8184', '.', '-', '.', 'ID=RL8A_cds1;Parent=RL8A_mRNA;Name=RL8A.1;Product=RL8A\n')
+Start positions: 7912 7912
+Stop positions: 8184 8184
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '8250', '8393', '.', '-', '0', 'ID=cds-AEJ33667.1;Parent=rna-HHV5wtgr002-2;Dbxref=NCBI_GP:AEJ33667.1;Name=AEJ33667.1;gbkey=CDS;gene=RL9A;locus_tag=HHV5wtgr002;product=protein RL9A;protein_id=AEJ33667.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '8250', '8393', '.', '-', '.', 'ID=RL9A_cds1;Parent=RL9A_mRNA;Name=RL9A.1;Product=RL9A\n')
+Start positions: 8250 8250
+Stop positions: 8393 8393
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '8601', '9113', '.', '+', '0', 'ID=cds-AAR31564.1;Parent=gene-HHV5wtgp004;Dbxref=NCBI_GP:AAR31564.1;Name=AAR31564.1;Note=possibly related to RL11 family;gbkey=CDS;gene=RL10;locus_tag=HHV5wtgp004;product=envelope glycoprotein RL10;protein_id=AAR31564.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '8601', '9113', '.', '+', '.', 'ID=RL10_cds1;Parent=RL10_mRNA;Name=RL10.1;Product=RL10\n')
+Start positions: 8601 8601
+Stop positions: 9113 9113
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '9142', '9846', '.', '+', '0', 'ID=cds-AAR31565.1;Parent=gene-HHV5wtgp005;Dbxref=NCBI_GP:AAR31565.1;Name=AAR31565.1;Note=RL11 family;gbkey=CDS;gene=RL11;locus_tag=HHV5wtgp005;product=membrane glycoprotein RL11;protein_id=AAR31565.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '9142', '9846', '.', '+', '.', 'ID=RL11_cds1;Parent=RL11_mRNA;Name=RL11.1;Product=RL11\n')
+Start positions: 9142 9142
+Stop positions: 9846 9846
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '9850', '11094', '.', '+', '0', 'ID=cds-AAR31566.1;Parent=gene-HHV5wtgp006;Dbxref=NCBI_GP:AAR31566.1;Name=AAR31566.1;Note=RL11 family;gbkey=CDS;gene=RL12;locus_tag=HHV5wtgp006;product=membrane protein RL12;protein_id=AAR31566.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '9850', '11094', '.', '+', '.', 'ID=RL12_cds1;Parent=RL12_mRNA;Name=RL12.1;Product=RL12\n')
+Start positions: 9850 9850
+Stop positions: 11094 11094
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '11189', '12070', '.', '+', '0', 'ID=cds-AAR31567.1;Parent=gene-HHV5wtgp007;Dbxref=NCBI_GP:AAR31567.1;Name=AAR31567.1;Note=RL11 family%3B consensus is wild type%2C consisting of several mutants present in different populations;gbkey=CDS;gene=RL13;locus_tag=HHV5wtgp007;product=membrane protein RL13;protein_id=AAR31567.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '11189', '12070', '.', '+', '.', 'ID=RL13_cds1;Parent=RL13_mRNA;Name=RL13.1;Product=RL13\n')
+Start positions: 11189 11189
+Stop positions: 12070 12070
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '12174', '12830', '.', '+', '0', 'ID=cds-AAR31568.1;Parent=gene-HHV5wtgp008;Dbxref=NCBI_GP:AAR31568.1;Name=AAR31568.1;Note=RL11 family;gbkey=CDS;gene=UL1;locus_tag=HHV5wtgp008;product=membrane protein UL1;protein_id=AAR31568.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '12174', '12830', '.', '+', '.', 'ID=UL1_cds1;Parent=UL1_mRNA;Name=UL1.1;Product=UL1\n')
+Start positions: 12174 12174
+Stop positions: 12830 12830
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '13211', '13390', '.', '-', '0', 'ID=cds-AAR31569.1;Parent=gene-HHV5wtgp009;Dbxref=NCBI_GP:AAR31569.1;Name=AAR31569.1;gbkey=CDS;gene=UL2;locus_tag=HHV5wtgp009;product=protein UL2;protein_id=AAR31569.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '13211', '13390', '.', '-', '.', 'ID=UL2_cds1;Parent=UL2_mRNA;Name=UL2.1;Product=UL2\n')
+Start positions: 13211 13211
+Stop positions: 13390 13390
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '13821', '14270', '.', '+', '0', 'ID=cds-AAR31570.1;Parent=gene-HHV5wtgp010;Dbxref=NCBI_GP:AAR31570.1;Name=AAR31570.1;Note=RL11 family;gbkey=CDS;gene=UL4;locus_tag=HHV5wtgp010;product=envelope glycoprotein UL4;protein_id=AAR31570.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '13821', '14270', '.', '+', '.', 'ID=UL4_cds1;Parent=UL4_mRNA;Name=UL4.1;Product=UL4\n')
+Start positions: 13821 13821
+Stop positions: 14270 14270
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '14358', '14858', '.', '+', '0', 'ID=cds-AAR31571.1;Parent=gene-HHV5wtgp011;Dbxref=NCBI_GP:AAR31571.1;Name=AAR31571.1;Note=RL11 family;gbkey=CDS;gene=UL5;locus_tag=HHV5wtgp011;product=protein UL5;protein_id=AAR31571.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '14358', '14858', '.', '+', '.', 'ID=UL5_cds1;Parent=UL5_mRNA;Name=UL5.1;Product=UL5\n')
+Start positions: 14358 14358
+Stop positions: 14858 14858
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '14965', '15807', '.', '+', '0', 'ID=cds-AAR31572.1;Parent=gene-HHV5wtgp012;Dbxref=NCBI_GP:AAR31572.1;Name=AAR31572.1;Note=RL11 family;gbkey=CDS;gene=UL6;locus_tag=HHV5wtgp012;product=membrane protein UL6;protein_id=AAR31572.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '14965', '15807', '.', '+', '.', 'ID=UL6_cds1;Parent=UL6_mRNA;Name=UL6.1;Product=UL6\n')
+Start positions: 14965 14965
+Stop positions: 15807 15807
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '15865', '16449', '.', '+', '0', 'ID=cds-AAR31574.2;Parent=gene-HHV5wtgp014;Dbxref=NCBI_GP:AAR31574.2;Name=AAR31574.2;Note=RL11 family;gbkey=CDS;gene=UL8;locus_tag=HHV5wtgp014;product=membrane glycoprotein UL8;protein_id=AAR31574.2\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '15865', '16449', '.', '+', '.', 'ID=UL8_cds1;Parent=UL8_mRNA;Name=UL8.1;Product=UL8\n')
+Start positions: 15865 15865
+Stop positions: 16449 16449
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '16552', '16941', '.', '+', '0', 'ID=cds-AAR31574.2;Parent=gene-HHV5wtgp014;Dbxref=NCBI_GP:AAR31574.2;Name=AAR31574.2;Note=RL11 family;gbkey=CDS;gene=UL8;locus_tag=HHV5wtgp014;product=membrane glycoprotein UL8;protein_id=AAR31574.2\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '16552', '16941', '.', '+', '.', 'ID=UL8_cds2;Parent=UL8_mRNA;Name=UL8.1;Product=UL8\n')
+Start positions: 16552 16552
+Stop positions: 16941 16941
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '15865', '16533', '.', '+', '0', 'ID=cds-AAR31573.1;Parent=gene-HHV5wtgp013;Dbxref=NCBI_GP:AAR31573.1;Name=AAR31573.1;Note=RL11 family;gbkey=CDS;gene=UL7;locus_tag=HHV5wtgp013;product=membrane glycoprotein UL7;protein_id=AAR31573.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '15865', '16533', '.', '+', '.', 'ID=UL7_cds1;Parent=UL7_mRNA;Name=UL7.1;Product=UL7\n')
+Start positions: 15865 15865
+Stop positions: 16533 16533
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '16947', '17648', '.', '+', '0', 'ID=cds-AAR31575.1;Parent=gene-HHV5wtgp015;Dbxref=NCBI_GP:AAR31575.1;Name=AAR31575.1;Note=RL11 family;gbkey=CDS;gene=UL9;locus_tag=HHV5wtgp015;product=membrane glycoprotein UL9;protein_id=AAR31575.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '16947', '17648', '.', '+', '.', 'ID=UL9_cds1;Parent=UL9_mRNA;Name=UL9.1;Product=UL9\n')
+Start positions: 16947 16947
+Stop positions: 17648 17648
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '17776', '18540', '.', '+', '0', 'ID=cds-AAR31576.1;Parent=gene-HHV5wtgp016;Dbxref=NCBI_GP:AAR31576.1;Name=AAR31576.1;Note=RL11 family;gbkey=CDS;gene=UL10;locus_tag=HHV5wtgp016;product=membrane protein UL10;protein_id=AAR31576.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '17776', '18540', '.', '+', '.', 'ID=UL10_cds1;Parent=UL10_mRNA;Name=UL10.1;Product=UL10\n')
+Start positions: 17776 17776
+Stop positions: 18540 18540
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '18642', '19460', '.', '+', '0', 'ID=cds-AAR31577.1;Parent=gene-HHV5wtgp017;Dbxref=NCBI_GP:AAR31577.1;Name=AAR31577.1;Note=RL11 family;gbkey=CDS;gene=UL11;locus_tag=HHV5wtgp017;product=membrane glycoprotein UL11;protein_id=AAR31577.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '18642', '19460', '.', '+', '.', 'ID=UL11_cds1;Parent=UL11_mRNA;Name=UL11.1;Product=UL11\n')
+Start positions: 18642 18642
+Stop positions: 19460 19460
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '19658', '21079', '.', '+', '0', 'ID=cds-AAR31578.1;Parent=gene-HHV5wtgp018;Dbxref=NCBI_GP:AAR31578.1;Name=AAR31578.1;gbkey=CDS;gene=UL13;locus_tag=HHV5wtgp018;product=protein UL13;protein_id=AAR31578.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '19658', '21079', '.', '+', '.', 'ID=UL13_cds1;Parent=UL13_mRNA;Name=UL13.1;Product=UL13\n')
+Start positions: 19658 19658
+Stop positions: 21079 21079
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '21229', '22212', '.', '+', '0', 'ID=cds-AAR31579.1;Parent=gene-HHV5wtgp019;Dbxref=NCBI_GP:AAR31579.1;Name=AAR31579.1;Note=UL14 family;gbkey=CDS;gene=UL14;locus_tag=HHV5wtgp019;product=membrane protein UL14;protein_id=AAR31579.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '21229', '22212', '.', '+', '.', 'ID=UL14_cds1;Parent=UL14_mRNA;Name=UL14.1;Product=UL14\n')
+Start positions: 21229 21229
+Stop positions: 22212 22212
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '22225', '22533', '.', '+', '0', 'ID=cds-AAR31580.1;Parent=gene-HHV5wtgp020;Dbxref=NCBI_GP:AAR31580.1;Name=AAR31580.1;gbkey=CDS;gene=UL15A;locus_tag=HHV5wtgp020;product=protein UL15A;protein_id=AAR31580.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '22225', '22533', '.', '+', '.', 'ID=UL15A_cds1;Parent=UL15A_mRNA;Name=UL15A.1;Product=UL15A\n')
+Start positions: 22225 22225
+Stop positions: 22533 22533
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '22754', '23446', '.', '+', '0', 'ID=cds-AAR31581.1;Parent=gene-HHV5wtgp021;Dbxref=NCBI_GP:AAR31581.1;Name=AAR31581.1;gbkey=CDS;gene=UL16;locus_tag=HHV5wtgp021;product=membrane glycoprotein UL16;protein_id=AAR31581.1\n')
+No exact match for both start and stop positions found.Iterating for start or stop only matches...
+No exact match for either start and stop positions found. Implementing fuzzy filter...
+Filter allowance :1 codons (3 nucleotides)
+Filter allowance :2 codons (6 nucleotides)
+Filter allowance :3 codons (9 nucleotides)
+Filter allowance :4 codons (12 nucleotides)
+Filter allowance :5 codons (15 nucleotides)
+Filter allowance :6 codons (18 nucleotides)
+Filter allowance :7 codons (21 nucleotides)
+Filter allowance :8 codons (24 nucleotides)
+Filter allowance :9 codons (27 nucleotides)
+Filter allowance :10 codons (30 nucleotides)
+Could not find any match, even with fuzzy filter. Moving on to next CDS in file...
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '23554', '23868', '.', '+', '0', 'ID=cds-AAR31582.1;Parent=gene-HHV5wtgp022;Dbxref=NCBI_GP:AAR31582.1;Name=AAR31582.1;Note=possibly related to UL19;gbkey=CDS;gene=UL17;locus_tag=HHV5wtgp022;product=protein UL17;protein_id=AAR31582.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '23554', '23868', '.', '+', '.', 'ID=UL17_cds1;Parent=UL17_mRNA;Name=UL17.1;Product=UL17\n')
+Start positions: 23554 23554
+Stop positions: 23868 23868
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '23977', '25083', '.', '+', '0', 'ID=cds-AAR31583.1;Parent=gene-HHV5wtgp023;Dbxref=NCBI_GP:AAR31583.1;Name=AAR31583.1;Note=MHC family;gbkey=CDS;gene=UL18;locus_tag=HHV5wtgp023;product=membrane glycoprotein UL18;protein_id=AAR31583.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '23977', '25083', '.', '+', '.', 'ID=UL18_cds1;Parent=UL18_mRNA;Name=UL18.1;Product=UL18\n')
+Start positions: 23977 23977
+Stop positions: 25083 25083
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '25080', '25376', '.', '+', '0', 'ID=cds-AAR31584.1;Parent=gene-HHV5wtgp024;Dbxref=NCBI_GP:AAR31584.1;Name=AAR31584.1;Note=possibly related to UL17;gbkey=CDS;gene=UL19;locus_tag=HHV5wtgp024;product=protein UL19;protein_id=AAR31584.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '25080', '25376', '.', '+', '.', 'ID=UL19_cds1;Parent=UL19_mRNA;Name=UL19.1;Product=UL19\n')
+Start positions: 25080 25080
+Stop positions: 25376 25376
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '25640', '26656', '.', '+', '0', 'ID=cds-AAR31585.1;Parent=gene-HHV5wtgp025;Dbxref=NCBI_GP:AAR31585.1;Name=AAR31585.1;gbkey=CDS;gene=UL20;locus_tag=HHV5wtgp025;product=membrane protein UL20;protein_id=AAR31585.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '25640', '26656', '.', '+', '.', 'ID=UL20_cds1;Parent=UL20_mRNA;Name=UL20.1;Product=UL20\n')
+Start positions: 25640 25640
+Stop positions: 26656 26656
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '26803', '27174', '.', '-', '0', 'ID=cds-AAR31586.1;Parent=gene-HHV5wtgp026;Dbxref=NCBI_GP:AAR31586.1;Name=AAR31586.1;gbkey=CDS;gene=UL21A;locus_tag=HHV5wtgp026;product=protein UL21A;protein_id=AAR31586.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '26803', '27174', '.', '-', '.', 'ID=UL21A_cds1;Parent=UL21A_mRNA;Name=UL21A.1;Product=UL21A\n')
+Start positions: 26803 26803
+Stop positions: 27174 27174
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '27443', '27528', '.', '+', '0', 'ID=cds-AAR31587.1;Parent=gene-HHV5wtgp027;Dbxref=NCBI_GP:AAR31587.1;Name=AAR31587.1;gbkey=CDS;gene=UL22A;locus_tag=HHV5wtgp027;product=glycoprotein UL22A;protein_id=AAR31587.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '27443', '27528', '.', '+', '.', 'ID=UL22A_cds1;Parent=UL22A_mRNA;Name=UL22A.1;Product=UL22A\n')
+Start positions: 27443 27443
+Stop positions: 27528 27528
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '27612', '27843', '.', '+', '1', 'ID=cds-AAR31587.1;Parent=gene-HHV5wtgp027;Dbxref=NCBI_GP:AAR31587.1;Name=AAR31587.1;gbkey=CDS;gene=UL22A;locus_tag=HHV5wtgp027;product=glycoprotein UL22A;protein_id=AAR31587.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '27612', '27843', '.', '+', '.', 'ID=UL22A_cds2;Parent=UL22A_mRNA;Name=UL22A.1;Product=UL22A\n')
+Start positions: 27612 27612
+Stop positions: 27843 27843
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '28208', '29062', '.', '-', '0', 'ID=cds-AAR31588.1;Parent=gene-HHV5wtgp028;Dbxref=NCBI_GP:AAR31588.1;Name=AAR31588.1;Note=US22 family;gbkey=CDS;gene=UL23;locus_tag=HHV5wtgp028;product=tegument protein UL23;protein_id=AAR31588.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '28208', '29062', '.', '-', '.', 'ID=UL23_cds1;Parent=UL23_mRNA;Name=UL23.1;Product=UL23\n')
+Start positions: 28208 28208
+Stop positions: 29062 29062
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '29278', '30354', '.', '-', '0', 'ID=cds-AAR31589.2;Parent=gene-HHV5wtgp029;Dbxref=NCBI_GP:AAR31589.2;Name=AAR31589.2;Note=US22 family;gbkey=CDS;gene=UL24;locus_tag=HHV5wtgp029;product=tegument protein UL24;protein_id=AAR31589.2\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '29278', '30354', '.', '-', '.', 'ID=UL24_cds1;Parent=UL24_mRNA;Name=UL24.1;Product=UL24\n')
+Start positions: 29278 29278
+Stop positions: 30354 30354
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '30402', '32372', '.', '+', '0', 'ID=cds-AAR31590.1;Parent=gene-HHV5wtgp030;Dbxref=NCBI_GP:AAR31590.1;Name=AAR31590.1;Note=UL25 family;gbkey=CDS;gene=UL25;locus_tag=HHV5wtgp030;product=tegument protein UL25;protein_id=AAR31590.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '30402', '32372', '.', '+', '.', 'ID=UL25_cds1;Parent=UL25_mRNA;Name=UL25.1;Product=UL25\n')
+Start positions: 30402 30402
+Stop positions: 32372 32372
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '32560', '33126', '.', '-', '0', 'ID=cds-AAR31591.1;Parent=gene-HHV5wtgp031;Dbxref=NCBI_GP:AAR31591.1;Name=AAR31591.1;Note=US22 family;gbkey=CDS;gene=UL26;locus_tag=HHV5wtgp031;product=tegument protein UL26;protein_id=AAR31591.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '32560', '33126', '.', '-', '.', 'ID=UL26_cds1;Parent=UL26_mRNA;Name=UL26.1;Product=UL26\n')
+Start positions: 32560 32560
+Stop positions: 33126 33126
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '33182', '35008', '.', '-', '0', 'ID=cds-AAR31592.1;Parent=gene-HHV5wtgp032;Dbxref=NCBI_GP:AAR31592.1;Name=AAR31592.1;gbkey=CDS;gene=UL27;locus_tag=HHV5wtgp032;product=protein UL27;protein_id=AAR31592.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '33182', '35008', '.', '-', '.', 'ID=UL27_cds1;Parent=UL27_mRNA;Name=UL27.1;Product=UL27\n')
+Start positions: 33182 33182
+Stop positions: 35008 35008
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '36278', '37353', '.', '-', '0', 'ID=cds-AAR31593.2;Parent=gene-HHV5wtgp034;Dbxref=NCBI_GP:AAR31593.2;Name=AAR31593.2;Note=US22 family;gbkey=CDS;gene=UL29;locus_tag=HHV5wtgp034;product=protein UL29;protein_id=AAR31593.2\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '36278', '37353', '.', '-', '.', 'ID=UL29_cds2;Parent=UL29_mRNA;Name=UL29.1;Product=UL29\n')
+Start positions: 36278 36278
+Stop positions: 37353 37353
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '35105', '36131', '.', '-', '1', 'ID=cds-AAR31593.2;Parent=gene-HHV5wtgp034;Dbxref=NCBI_GP:AAR31593.2;Name=AAR31593.2;Note=US22 family;gbkey=CDS;gene=UL29;locus_tag=HHV5wtgp034;product=protein UL29;protein_id=AAR31593.2\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '35105', '36131', '.', '-', '.', 'ID=UL29_cds1;Parent=UL29_mRNA;Name=UL29.1;Product=UL29\n')
+Start positions: 35105 35105
+Stop positions: 36131 36131
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '37483', '37848', '.', '-', '0', 'ID=cds-AAR31595.1;Parent=gene-HHV5wtgp035;Dbxref=NCBI_GP:AAR31595.1;Name=AAR31595.1;Note=UL30 family;gbkey=CDS;gene=UL30;locus_tag=HHV5wtgp035;product=protein UL30;protein_id=AAR31595.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '37483', '37848', '.', '-', '.', 'ID=UL30_cds1;Parent=UL30_mRNA;Name=UL30.1;Product=UL30\n')
+Start positions: 37483 37483
+Stop positions: 37848 37848
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '37894', '38133', '.', '-', '0', 'ID=cds-AGL13510.1;Parent=rna-HHV5wtgp035a;Dbxref=NCBI_GP:AGL13510.1;Name=AGL13510.1;Note=UL30 family;exception=alternative start codon;experiment=EXISTENCE:ribosome profiling[23180859];gbkey=CDS;gene=UL30A;locus_tag=HHV5wtgp035a;product=protein UL30A;protein_id=AGL13510.1;transl_except=(pos:complement(38131..38133)%2Caa:Met)\n')
+No exact match for both start and stop positions found.Iterating for start or stop only matches...
+No exact match for either start and stop positions found. Implementing fuzzy filter...
+Filter allowance :1 codons (3 nucleotides)
+Filter allowance :2 codons (6 nucleotides)
+Filter allowance :3 codons (9 nucleotides)
+Filter allowance :4 codons (12 nucleotides)
+Filter allowance :5 codons (15 nucleotides)
+Filter allowance :6 codons (18 nucleotides)
+Filter allowance :7 codons (21 nucleotides)
+Filter allowance :8 codons (24 nucleotides)
+Filter allowance :9 codons (27 nucleotides)
+Filter allowance :10 codons (30 nucleotides)
+Could not find any match, even with fuzzy filter. Moving on to next CDS in file...
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '38327', '40114', '.', '+', '0', 'ID=cds-AAR31596.1;Parent=gene-HHV5wtgp036;Dbxref=NCBI_GP:AAR31596.1;Name=AAR31596.1;Note=DURP family;gbkey=CDS;gene=UL31;locus_tag=HHV5wtgp036;product=protein UL31;protein_id=AAR31596.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '38327', '40114', '.', '+', '.', 'ID=UL31_cds1;Parent=UL31_mRNA;Name=UL31.1;Product=UL31\n')
+Start positions: 38327 38327
+Stop positions: 40114 40114
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '40195', '43344', '.', '-', '0', 'ID=cds-AAR31597.1;Parent=gene-HHV5wtgp037;Dbxref=NCBI_GP:AAR31597.1;Name=AAR31597.1;gbkey=CDS;gene=UL32;locus_tag=HHV5wtgp037;product=tegument protein pp150;protein_id=AAR31597.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '40195', '43344', '.', '-', '.', 'ID=UL32_cds1;Parent=UL32_mRNA;Name=UL32.1;Product=UL32\n')
+Start positions: 40195 40195
+Stop positions: 43344 43344
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '43415', '43441', '.', '+', '0', 'ID=cds-AAR31598.1;Parent=gene-HHV5wtgp038;Dbxref=NCBI_GP:AAR31598.1;Name=AAR31598.1;Note=GPCR family;gbkey=CDS;gene=UL33;locus_tag=HHV5wtgp038;product=envelope glycoprotein UL33;protein_id=AAR31598.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '43415', '43441', '.', '+', '.', 'ID=UL33_cds1;Parent=UL33_mRNA;Name=UL33.1;Product=UL33\n')
+Start positions: 43415 43415
+Stop positions: 43441 43441
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '43562', '44773', '.', '+', '0', 'ID=cds-AAR31598.1;Parent=gene-HHV5wtgp038;Dbxref=NCBI_GP:AAR31598.1;Name=AAR31598.1;Note=GPCR family;gbkey=CDS;gene=UL33;locus_tag=HHV5wtgp038;product=envelope glycoprotein UL33;protein_id=AAR31598.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '43562', '44773', '.', '+', '.', 'ID=UL33_cds2;Parent=UL33_mRNA;Name=UL33.1;Product=UL33\n')
+Start positions: 43562 43562
+Stop positions: 44773 44773
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '45141', '46364', '.', '+', '0', 'ID=cds-AAR31599.1;Parent=gene-HHV5wtgp039;Dbxref=NCBI_GP:AAR31599.1;Name=AAR31599.1;gbkey=CDS;gene=UL34;locus_tag=HHV5wtgp039;product=protein UL34;protein_id=AAR31599.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '45141', '46364', '.', '+', '.', 'ID=UL34_cds1;Parent=UL34_mRNA;Name=UL34.1;Product=UL34\n')
+Start positions: 45141 45141
+Stop positions: 46364 46364
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '46443', '48368', '.', '+', '0', 'ID=cds-AAR31600.1;Parent=gene-HHV5wtgp040;Dbxref=NCBI_GP:AAR31600.1;Name=AAR31600.1;Note=UL25 family;gbkey=CDS;gene=UL35;locus_tag=HHV5wtgp040;product=tegument protein UL35;protein_id=AAR31600.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '46443', '48368', '.', '+', '.', 'ID=UL35_cds1;Parent=UL35_mRNA;Name=UL35.1;Product=UL35\n')
+Start positions: 46443 46443
+Stop positions: 48368 48368
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '49927', '50128', '.', '-', '0', 'ID=cds-AAR31601.1;Parent=gene-HHV5wtgp041;Dbxref=NCBI_GP:AAR31601.1;Name=AAR31601.1;Note=US22 family;gbkey=CDS;gene=UL36;locus_tag=HHV5wtgp041;product=tegument protein vICA;protein_id=AAR31601.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '49927', '50128', '.', '-', '.', 'ID=UL36_cds2;Parent=UL36_mRNA;Name=UL36.1;Product=UL36\n')
+Start positions: 49927 49927
+Stop positions: 50128 50128
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '48595', '49823', '.', '-', '2', 'ID=cds-AAR31601.1;Parent=gene-HHV5wtgp041;Dbxref=NCBI_GP:AAR31601.1;Name=AAR31601.1;Note=US22 family;gbkey=CDS;gene=UL36;locus_tag=HHV5wtgp041;product=tegument protein vICA;protein_id=AAR31601.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '48595', '49823', '.', '-', '.', 'ID=UL36_cds1;Parent=UL36_mRNA;Name=UL36.1;Product=UL36\n')
+Start positions: 48595 48595
+Stop positions: 49823 49823
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '52573', '53060', '.', '-', '0', 'ID=cds-AAR31602.1;Parent=gene-HHV5wtgp042;Dbxref=NCBI_GP:AAR31602.1;Name=AAR31602.1;gbkey=CDS;gene=UL37;locus_tag=HHV5wtgp042;product=envelope glycoprotein UL37;protein_id=AAR31602.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '52573', '53060', '.', '-', '.', 'ID=UL37_cds3;Parent=UL37_mRNA;Name=UL37.1;Product=UL37\n')
+Start positions: 52573 52573
+Stop positions: 53060 53060
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '51302', '51344', '.', '-', '1', 'ID=cds-AAR31602.1;Parent=gene-HHV5wtgp042;Dbxref=NCBI_GP:AAR31602.1;Name=AAR31602.1;gbkey=CDS;gene=UL37;locus_tag=HHV5wtgp042;product=envelope glycoprotein UL37;protein_id=AAR31602.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '51302', '51344', '.', '-', '.', 'ID=UL37_cds2;Parent=UL37_mRNA;Name=UL37.1;Product=UL37\n')
+Start positions: 51302 51302
+Stop positions: 51344 51344
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '50262', '51197', '.', '-', '0', 'ID=cds-AAR31602.1;Parent=gene-HHV5wtgp042;Dbxref=NCBI_GP:AAR31602.1;Name=AAR31602.1;gbkey=CDS;gene=UL37;locus_tag=HHV5wtgp042;product=envelope glycoprotein UL37;protein_id=AAR31602.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '50262', '51197', '.', '-', '.', 'ID=UL37_cds1;Parent=UL37_mRNA;Name=UL37.1;Product=UL37\n')
+Start positions: 50262 50262
+Stop positions: 51197 51197
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '51482', '52477', '.', '-', '0', 'ID=cds-AAR31603.1;Parent=gene-HHV5wtgp043;Dbxref=NCBI_GP:AAR31603.1;Name=AAR31603.1;gbkey=CDS;gene=UL38;locus_tag=HHV5wtgp043;product=protein UL38;protein_id=AAR31603.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '51482', '52477', '.', '-', '.', 'ID=UL38_cds1;Parent=UL38_mRNA;Name=UL38.1;Product=UL38\n')
+Start positions: 51482 51482
+Stop positions: 52477 52477
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '54401', '54637', '.', '-', '0', 'ID=cds-AAR31605.1;Parent=rna-HHV5wtgp045;Dbxref=NCBI_GP:AAR31605.1;Name=AAR31605.1;gbkey=CDS;gene=UL41A;locus_tag=HHV5wtgp045;product=protein UL41A;protein_id=AAR31605.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '54401', '54637', '.', '-', '.', 'ID=UL41A_cds1;Parent=UL41A_mRNA;Name=UL41A.1;Product=UL41A\n')
+Start positions: 54401 54401
+Stop positions: 54637 54637
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '53574', '54239', '.', '-', '0', 'ID=cds-AAR31604.1;Parent=rna-HHV5wtgp044;Dbxref=NCBI_GP:AAR31604.1;Name=AAR31604.1;gbkey=CDS;gene=UL40;locus_tag=HHV5wtgp044;product=membrane glycoprotein UL40;protein_id=AAR31604.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '53574', '54239', '.', '-', '.', 'ID=UL40_cds1;Parent=UL40_mRNA;Name=UL40.1;Product=UL40\n')
+Start positions: 53574 53574
+Stop positions: 54239 54239
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '54742', '55119', '.', '-', '0', 'ID=cds-AAR31606.1;Parent=gene-HHV5wtgp046;Dbxref=NCBI_GP:AAR31606.1;Name=AAR31606.1;gbkey=CDS;gene=UL42;locus_tag=HHV5wtgp046;product=protein UL42;protein_id=AAR31606.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '54742', '55119', '.', '-', '.', 'ID=UL42_cds1;Parent=UL42_mRNA;Name=UL42.1;Product=UL42\n')
+Start positions: 54742 54742
+Stop positions: 55119 55119
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '55183', '56454', '.', '-', '0', 'ID=cds-AAR31607.1;Parent=gene-HHV5wtgp047;Dbxref=NCBI_GP:AAR31607.1;Name=AAR31607.1;Note=US22 family;gbkey=CDS;gene=UL43;locus_tag=HHV5wtgp047;product=tegument protein UL43;protein_id=AAR31607.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '55183', '56454', '.', '-', '.', 'ID=UL43_cds1;Parent=UL43_mRNA;Name=UL43.1;Product=UL43\n')
+Start positions: 55183 55183
+Stop positions: 56454 56454
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '56501', '57802', '.', '-', '0', 'ID=cds-AAR31608.1;Parent=gene-HHV5wtgp048;Dbxref=NCBI_GP:AAR31608.1;Name=AAR31608.1;gbkey=CDS;gene=UL44;locus_tag=HHV5wtgp048;product=DNA polymerase processivity subunit;protein_id=AAR31608.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '56501', '57802', '.', '-', '.', 'ID=UL44_cds1;Parent=UL44_mRNA;Name=UL44.1;Product=UL44\n')
+Start positions: 56501 56501
+Stop positions: 57802 57802
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '57943', '60663', '.', '-', '0', 'ID=cds-AAR31609.1;Parent=gene-HHV5wtgp049;Dbxref=NCBI_GP:AAR31609.1;Name=AAR31609.1;gbkey=CDS;gene=UL45;locus_tag=HHV5wtgp049;product=ribonucleotide reductase subunit 1;protein_id=AAR31609.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '57943', '60663', '.', '-', '.', 'ID=UL45_cds1;Parent=UL45_mRNA;Name=UL45.1;Product=UL45\n')
+Start positions: 57943 57943
+Stop positions: 60663 60663
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '60806', '61678', '.', '-', '0', 'ID=cds-AAR31610.1;Parent=gene-HHV5wtgp050;Dbxref=NCBI_GP:AAR31610.1;Name=AAR31610.1;gbkey=CDS;gene=UL46;locus_tag=HHV5wtgp050;product=capsid triplex subunit 1;protein_id=AAR31610.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '60806', '61678', '.', '-', '.', 'ID=UL46_cds1;Parent=UL46_mRNA;Name=UL46.1;Product=UL46\n')
+Start positions: 60806 60806
+Stop positions: 61678 61678
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '61677', '64628', '.', '+', '0', 'ID=cds-AAR31611.1;Parent=gene-HHV5wtgp051;Dbxref=NCBI_GP:AAR31611.1;Name=AAR31611.1;gbkey=CDS;gene=UL47;locus_tag=HHV5wtgp051;product=tegument protein UL37;protein_id=AAR31611.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '61677', '64628', '.', '+', '.', 'ID=UL47_cds1;Parent=UL47_mRNA;Name=UL47.1;Product=UL47\n')
+Start positions: 61677 61677
+Stop positions: 64628 64628
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '64625', '71350', '.', '+', '0', 'ID=cds-AAR31613.1;Parent=gene-HHV5wtgp052;Dbxref=NCBI_GP:AAR31613.1;Name=AAR31613.1;gbkey=CDS;gene=UL48;locus_tag=HHV5wtgp052;product=large tegument protein;protein_id=AAR31613.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '64625', '71350', '.', '+', '.', 'ID=UL48_cds1;Parent=UL48_mRNA;Name=UL48.1;Product=UL48\n')
+Start positions: 64625 64625
+Stop positions: 71350 71350
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '71469', '71696', '.', '-', '0', 'ID=cds-AAR31612.1;Parent=rna-HHV5wtgp053;Dbxref=NCBI_GP:AAR31612.1;Name=AAR31612.1;gbkey=CDS;gene=UL48A;locus_tag=HHV5wtgp053;product=small capsid protein;protein_id=AAR31612.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '71469', '71696', '.', '-', '.', 'ID=UL48A_cds1;Parent=UL48A_mRNA;Name=UL48A.1;Product=UL48A\n')
+Start positions: 71469 71469
+Stop positions: 71696 71696
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '71689', '73401', '.', '-', '0', 'ID=cds-AAR31614.1;Parent=gene-HHV5wtgp054;Dbxref=NCBI_GP:AAR31614.1;Name=AAR31614.1;gbkey=CDS;gene=UL49;locus_tag=HHV5wtgp054;product=protein UL49;protein_id=AAR31614.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '71689', '73401', '.', '-', '.', 'ID=UL49_cds1;Parent=UL49_mRNA;Name=UL49.1;Product=UL49\n')
+Start positions: 71689 71689
+Stop positions: 73401 73401
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '73358', '74554', '.', '-', '0', 'ID=cds-AAR31616.1;Parent=gene-HHV5wtgp055;Dbxref=NCBI_GP:AAR31616.1;Name=AAR31616.1;gbkey=CDS;gene=UL50;locus_tag=HHV5wtgp055;product=nuclear egress membrane protein;protein_id=AAR31616.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '73358', '74554', '.', '-', '.', 'ID=UL50_cds1;Parent=UL50_mRNA;Name=UL50.1;Product=UL50\n')
+Start positions: 73358 73358
+Stop positions: 74554 74554
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '74576', '75049', '.', '-', '0', 'ID=cds-AAR31615.1;Parent=gene-HHV5wtgp056;Dbxref=NCBI_GP:AAR31615.1;Name=AAR31615.1;gbkey=CDS;gene=UL51;locus_tag=HHV5wtgp056;product=DNA packaging protein UL33;protein_id=AAR31615.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '74576', '75049', '.', '-', '.', 'ID=UL51_cds1;Parent=UL51_mRNA;Name=UL51.1;Product=UL51\n')
+Start positions: 74576 74576
+Stop positions: 75049 75049
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '75087', '77093', '.', '+', '0', 'ID=cds-AAR31618.1;Parent=gene-HHV5wtgp057;Dbxref=NCBI_GP:AAR31618.1;Name=AAR31618.1;gbkey=CDS;gene=UL52;locus_tag=HHV5wtgp057;product=DNA packaging protein UL32;protein_id=AAR31618.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '75087', '77093', '.', '+', '.', 'ID=UL52_cds1;Parent=UL52_mRNA;Name=UL52.1;Product=UL52\n')
+Start positions: 75087 75087
+Stop positions: 77093 77093
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '77086', '78216', '.', '+', '0', 'ID=cds-AAR31617.1;Parent=gene-HHV5wtgp058;Dbxref=NCBI_GP:AAR31617.1;Name=AAR31617.1;gbkey=CDS;gene=UL53;locus_tag=HHV5wtgp058;product=nuclear egress lamina protein;protein_id=AAR31617.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '77086', '78216', '.', '+', '.', 'ID=UL53_cds1;Parent=UL53_mRNA;Name=UL53.1;Product=UL53\n')
+Start positions: 77086 77086
+Stop positions: 78216 78216
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '78194', '81922', '.', '-', '0', 'ID=cds-AAR31619.1;Parent=gene-HHV5wtgp059;Dbxref=NCBI_GP:AAR31619.1;Name=AAR31619.1;gbkey=CDS;gene=UL54;locus_tag=HHV5wtgp059;product=DNA polymerase catalytic subunit;protein_id=AAR31619.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '78194', '81922', '.', '-', '.', 'ID=UL54_cds1;Parent=UL54_mRNA;Name=UL54.1;Product=UL54\n')
+Start positions: 78194 78194
+Stop positions: 81922 81922
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '82066', '84789', '.', '-', '0', 'ID=cds-AAR31620.1;Parent=gene-HHV5wtgp060;Dbxref=NCBI_GP:AAR31620.1;Name=AAR31620.1;gbkey=CDS;gene=UL55;locus_tag=HHV5wtgp060;product=envelope glycoprotein B;protein_id=AAR31620.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '82066', '84789', '.', '-', '.', 'ID=UL55_cds1;Parent=UL55_mRNA;Name=UL55.1;Product=UL55\n')
+Start positions: 82066 82066
+Stop positions: 84789 84789
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '84752', '87304', '.', '-', '0', 'ID=cds-AAR31621.1;Parent=gene-HHV5wtgp061;Dbxref=NCBI_GP:AAR31621.1;Name=AAR31621.1;gbkey=CDS;gene=UL56;locus_tag=HHV5wtgp061;product=DNA packaging terminase subunit 2;protein_id=AAR31621.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '84752', '87304', '.', '-', '.', 'ID=UL56_cds1;Parent=UL56_mRNA;Name=UL56.1;Product=UL56\n')
+Start positions: 84752 84752
+Stop positions: 87304 87304
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '87871', '91578', '.', '-', '0', 'ID=cds-AAR31622.1;Parent=gene-HHV5wtgp062;Dbxref=NCBI_GP:AAR31622.1;Name=AAR31622.1;gbkey=CDS;gene=UL57;locus_tag=HHV5wtgp062;product=single-stranded DNA-binding protein;protein_id=AAR31622.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '87871', '91578', '.', '-', '.', 'ID=UL57_cds1;Parent=UL57_mRNA;Name=UL57.1;Product=UL57\n')
+Start positions: 87871 87871
+Stop positions: 91578 91578
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '99519', '101747', '.', '-', '0', 'ID=cds-AAR31623.1;Parent=gene-HHV5wtgp063;Dbxref=NCBI_GP:AAR31623.1;Name=AAR31623.1;gbkey=CDS;gene=UL69;locus_tag=HHV5wtgp063;product=multifunctional expression regulator;protein_id=AAR31623.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '99519', '101747', '.', '-', '.', 'ID=UL69_cds1;Parent=UL69_mRNA;Name=UL69.1;Product=UL69\n')
+Start positions: 99519 99519
+Stop positions: 101747 101747
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '101847', '104687', '.', '-', '0', 'ID=cds-AAR31624.1;Parent=gene-HHV5wtgp064;Dbxref=NCBI_GP:AAR31624.1;Name=AAR31624.1;gbkey=CDS;gene=UL70;locus_tag=HHV5wtgp064;product=helicase-primase primase subunit;protein_id=AAR31624.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '101847', '104687', '.', '-', '.', 'ID=UL70_cds1;Parent=UL70_mRNA;Name=UL70.1;Product=UL70\n')
+Start positions: 101847 101847
+Stop positions: 104687 104687
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '104703', '105788', '.', '+', '0', 'ID=cds-AAR31724.1;Parent=gene-HHV5wtgp065;Dbxref=NCBI_GP:AAR31724.1;Name=AAR31724.1;gbkey=CDS;gene=UL71;locus_tag=HHV5wtgp065;product=tegument protein UL51;protein_id=AAR31724.1\n')
+No exact match for both start and stop positions found.Iterating for start or stop only matches...
+Found match with starting position: ('AY446894.2', 'exonerate', 'CDS', '104703', '105791', '.', '+', '.', 'ID=UL71_cds1;Parent=UL71_mRNA;Name=UL71.1;Product=UL71\n')
+Start positions: 104703 104703
+Stop positions: 105788 105791
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '105869', '107035', '.', '-', '0', 'ID=cds-AAR31625.1;Parent=gene-HHV5wtgp066;Dbxref=NCBI_GP:AAR31625.1;Name=AAR31625.1;Note=DURP family;gbkey=CDS;gene=UL72;locus_tag=HHV5wtgp066;product=deoxyuridine triphosphatase;protein_id=AAR31625.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '105869', '107035', '.', '-', '.', 'ID=UL72_cds1;Parent=UL72_mRNA;Name=UL72.1;Product=UL72\n')
+Start positions: 105869 105869
+Stop positions: 107035 107035
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '107051', '107458', '.', '+', '0', 'ID=cds-AAR31725.1;Parent=rna-HHV5wtgp067-2;Dbxref=NCBI_GP:AAR31725.1;Name=AAR31725.1;gbkey=CDS;gene=UL73;locus_tag=HHV5wtgp067;product=envelope glycoprotein N;protein_id=AAR31725.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '107051', '107458', '.', '+', '.', 'ID=UL73_cds1;Parent=UL73_mRNA;Name=UL73.1;Product=UL73\n')
+Start positions: 107051 107051
+Stop positions: 107458 107458
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '107430', '108848', '.', '-', '0', 'ID=cds-AAR31626.1;Parent=gene-HHV5wtgp068;Dbxref=NCBI_GP:AAR31626.1;Name=AAR31626.1;gbkey=CDS;gene=UL74;locus_tag=HHV5wtgp068;product=envelope glycoprotein O;protein_id=AAR31626.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '107430', '108848', '.', '-', '.', 'ID=UL74_cds1;Parent=UL74_mRNA;Name=UL74.1;Product=UL74\n')
+Start positions: 107430 107430
+Stop positions: 108848 108848
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '108142', '108155', '.', '+', '0', 'ID=cds-ACO83398.2;Parent=rna-HHV5wtgp167-2;Dbxref=NCBI_GP:ACO83398.2;Name=ACO83398.2;gbkey=CDS;gene=UL74A;locus_tag=HHV5wtgp167;product=envelope glycoprotein 24;protein_id=ACO83398.2\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '108142', '108155', '.', '+', '.', 'ID=UL74A_cds1;Parent=UL74A_mRNA;Name=UL74A.1;Product=UL74A\n')
+Start positions: 108142 108142
+Stop positions: 108155 108155
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '108854', '109052', '.', '+', '1', 'ID=cds-ACO83398.2;Parent=rna-HHV5wtgp167-2;Dbxref=NCBI_GP:ACO83398.2;Name=ACO83398.2;gbkey=CDS;gene=UL74A;locus_tag=HHV5wtgp167;product=envelope glycoprotein 24;protein_id=ACO83398.2\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '108854', '109052', '.', '+', '.', 'ID=UL74A_cds2;Parent=UL74A_mRNA;Name=UL74A.1;Product=UL74A\n')
+Start positions: 108854 108854
+Stop positions: 109052 109052
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '109224', '111452', '.', '-', '0', 'ID=cds-AAR31627.1;Parent=gene-HHV5wtgp069;Dbxref=NCBI_GP:AAR31627.1;Name=AAR31627.1;gbkey=CDS;gene=UL75;locus_tag=HHV5wtgp069;product=envelope glycoprotein H;protein_id=AAR31627.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '109224', '111452', '.', '-', '.', 'ID=UL75_cds1;Parent=UL75_mRNA;Name=UL75.1;Product=UL75\n')
+Start positions: 109224 109224
+Stop positions: 111452 111452
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '111647', '112624', '.', '+', '0', 'ID=cds-AAR31628.1;Parent=gene-HHV5wtgp070;Dbxref=NCBI_GP:AAR31628.1;Name=AAR31628.1;gbkey=CDS;gene=UL76;locus_tag=HHV5wtgp070;product=nuclear protein UL24;protein_id=AAR31628.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '111647', '112624', '.', '+', '.', 'ID=UL76_cds1;Parent=UL76_mRNA;Name=UL76.1;Product=UL76\n')
+Start positions: 111647 111647
+Stop positions: 112624 112624
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '112227', '114137', '.', '+', '0', 'ID=cds-AAR31629.1;Parent=gene-HHV5wtgp071;Dbxref=NCBI_GP:AAR31629.1;Name=AAR31629.1;gbkey=CDS;gene=UL77;locus_tag=HHV5wtgp071;product=DNA packaging tegument protein UL25;protein_id=AAR31629.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '112227', '114137', '.', '+', '.', 'ID=UL77_cds1;Parent=UL77_mRNA;Name=UL77.1;Product=UL77\n')
+Start positions: 112227 112227
+Stop positions: 114137 114137
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '114226', '115521', '.', '+', '0', 'ID=cds-AAR31630.1;Parent=gene-HHV5wtgp072;Dbxref=NCBI_GP:AAR31630.1;Name=AAR31630.1;Note=GPCR family;gbkey=CDS;gene=UL78;locus_tag=HHV5wtgp072;product=envelope protein UL78;protein_id=AAR31630.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '114226', '115521', '.', '+', '.', 'ID=UL78_cds1;Parent=UL78_mRNA;Name=UL78.1;Product=UL78\n')
+Start positions: 114226 114226
+Stop positions: 115521 115521
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '115576', '116463', '.', '-', '0', 'ID=cds-AAR31631.1;Parent=gene-HHV5wtgp073;Dbxref=NCBI_GP:AAR31631.1;Name=AAR31631.1;gbkey=CDS;gene=UL79;locus_tag=HHV5wtgp073;product=protein UL79;protein_id=AAR31631.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '115576', '116463', '.', '-', '.', 'ID=UL79_cds1;Parent=UL79_mRNA;Name=UL79.1;Product=UL79\n')
+Start positions: 115576 115576
+Stop positions: 116463 116463
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '116500', '118626', '.', '+', '0', 'ID=cds-AAR31632.1;Parent=gene-HHV5wtgp074;Dbxref=NCBI_GP:AAR31632.1;Name=AAR31632.1;gbkey=CDS;gene=UL80;locus_tag=HHV5wtgp074;product=capsid maturation protease;protein_id=AAR31632.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '116500', '118626', '.', '+', '.', 'ID=UL80_cds1;Parent=UL80_mRNA;Name=UL80.1;Product=UL80\n')
+Start positions: 116500 116500
+Stop positions: 118626 118626
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '117505', '118626', '.', '+', '0', 'ID=cds-AAR31633.1;Parent=gene-HHV5wtgp075;Dbxref=NCBI_GP:AAR31633.1;Name=AAR31633.1;gbkey=CDS;gene=UL80.5;locus_tag=HHV5wtgp075;product=capsid scaffold protein;protein_id=AAR31633.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '117505', '118626', '.', '+', '.', 'ID=UL80.5_cds1;Parent=UL80.5_mRNA;Name=UL80.5.1;Product=UL80.5\n')
+Start positions: 117505 117505
+Stop positions: 118626 118626
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '118788', '120467', '.', '-', '0', 'ID=cds-AAR31634.1;Parent=gene-HHV5wtgp076;Dbxref=NCBI_GP:AAR31634.1;Name=AAR31634.1;Note=DURP family;gbkey=CDS;gene=UL82;locus_tag=HHV5wtgp076;product=tegument protein pp71;protein_id=AAR31634.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '118788', '120467', '.', '-', '.', 'ID=UL82_cds1;Parent=UL82_mRNA;Name=UL82.1;Product=UL82\n')
+Start positions: 118788 118788
+Stop positions: 120467 120467
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '120656', '122341', '.', '-', '0', 'ID=cds-AAR31635.1;Parent=gene-HHV5wtgp077;Dbxref=NCBI_GP:AAR31635.1;Name=AAR31635.1;Note=DURP family;gbkey=CDS;gene=UL83;locus_tag=HHV5wtgp077;product=tegument protein pp65;protein_id=AAR31635.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '120656', '122341', '.', '-', '.', 'ID=UL83_cds1;Parent=UL83_mRNA;Name=UL83.1;Product=UL83\n')
+Start positions: 120656 120656
+Stop positions: 122341 122341
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '122613', '124376', '.', '-', '0', 'ID=cds-AAR31636.1;Parent=gene-HHV5wtgp078;Dbxref=NCBI_GP:AAR31636.1;Name=AAR31636.1;Note=DURP family;gbkey=CDS;gene=UL84;locus_tag=HHV5wtgp078;product=protein UL84;protein_id=AAR31636.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '122613', '124376', '.', '-', '.', 'ID=UL84_cds1;Parent=UL84_mRNA;Name=UL84.1;Product=UL84\n')
+Start positions: 122613 122613
+Stop positions: 124376 124376
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '124408', '125328', '.', '-', '0', 'ID=cds-AAR31637.1;Parent=gene-HHV5wtgp079;Dbxref=NCBI_GP:AAR31637.1;Name=AAR31637.1;gbkey=CDS;gene=UL85;locus_tag=HHV5wtgp079;product=capsid triplex subunit 2;protein_id=AAR31637.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '124408', '125328', '.', '-', '.', 'ID=UL85_cds1;Parent=UL85_mRNA;Name=UL85.1;Product=UL85\n')
+Start positions: 124408 124408
+Stop positions: 125328 125328
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '125490', '129602', '.', '-', '0', 'ID=cds-AAR31638.1;Parent=gene-HHV5wtgp080;Dbxref=NCBI_GP:AAR31638.1;Name=AAR31638.1;gbkey=CDS;gene=UL86;locus_tag=HHV5wtgp080;product=major capsid protein;protein_id=AAR31638.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '125490', '129602', '.', '-', '.', 'ID=UL86_cds1;Parent=UL86_mRNA;Name=UL86.1;Product=UL86\n')
+Start positions: 125490 125490
+Stop positions: 129602 129602
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '129662', '132487', '.', '+', '0', 'ID=cds-AAR31639.1;Parent=gene-HHV5wtgp081;Dbxref=NCBI_GP:AAR31639.1;Name=AAR31639.1;gbkey=CDS;gene=UL87;locus_tag=HHV5wtgp081;product=protein UL87;protein_id=AAR31639.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '129662', '132487', '.', '+', '.', 'ID=UL87_cds1;Parent=UL87_mRNA;Name=UL87.1;Product=UL87\n')
+Start positions: 129662 129662
+Stop positions: 132487 132487
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '132484', '133773', '.', '+', '0', 'ID=cds-AAR31640.1;Parent=gene-HHV5wtgp082;Dbxref=NCBI_GP:AAR31640.1;Name=AAR31640.1;gbkey=CDS;gene=UL88;locus_tag=HHV5wtgp082;product=tegument protein UL88;protein_id=AAR31640.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '132484', '133773', '.', '+', '.', 'ID=UL88_cds1;Parent=UL88_mRNA;Name=UL88.1;Product=UL88\n')
+Start positions: 132484 132484
+Stop positions: 133773 133773
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '138810', '139697', '.', '-', '0', 'ID=cds-AAR31641.1;Parent=gene-HHV5wtgp083;Dbxref=NCBI_GP:AAR31641.1;Name=AAR31641.1;gbkey=CDS;gene=UL89;locus_tag=HHV5wtgp083;product=DNA packaging terminase subunit 1;protein_id=AAR31641.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '138810', '139697', '.', '-', '.', 'ID=UL89_cds2;Parent=UL89_mRNA;Name=UL89.1;Product=UL89\n')
+Start positions: 138810 138810
+Stop positions: 139697 139697
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '133770', '134906', '.', '-', '0', 'ID=cds-AAR31641.1;Parent=gene-HHV5wtgp083;Dbxref=NCBI_GP:AAR31641.1;Name=AAR31641.1;gbkey=CDS;gene=UL89;locus_tag=HHV5wtgp083;product=DNA packaging terminase subunit 1;protein_id=AAR31641.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '133770', '134906', '.', '-', '.', 'ID=UL89_cds1;Parent=UL89_mRNA;Name=UL89.1;Product=UL89\n')
+Start positions: 133770 133770
+Stop positions: 134906 134906
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '135142', '135477', '.', '+', '0', 'ID=cds-AAR31642.1;Parent=gene-HHV5wtgp084;Dbxref=NCBI_GP:AAR31642.1;Name=AAR31642.1;gbkey=CDS;gene=UL91;locus_tag=HHV5wtgp084;product=protein UL91;protein_id=AAR31642.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '135142', '135477', '.', '+', '.', 'ID=UL91_cds1;Parent=UL91_mRNA;Name=UL91.1;Product=UL91\n')
+Start positions: 135142 135142
+Stop positions: 135477 135477
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '135447', '136052', '.', '+', '0', 'ID=cds-AAR31643.1;Parent=gene-HHV5wtgp085;Dbxref=NCBI_GP:AAR31643.1;Name=AAR31643.1;gbkey=CDS;gene=UL92;locus_tag=HHV5wtgp085;product=protein UL92;protein_id=AAR31643.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '135447', '136052', '.', '+', '.', 'ID=UL92_cds1;Parent=UL92_mRNA;Name=UL92.1;Product=UL92\n')
+Start positions: 135447 135447
+Stop positions: 136052 136052
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '136018', '137802', '.', '+', '0', 'ID=cds-AAR31644.1;Parent=gene-HHV5wtgp086;Dbxref=NCBI_GP:AAR31644.1;Name=AAR31644.1;gbkey=CDS;gene=UL93;locus_tag=HHV5wtgp086;product=DNA packaging tegument protein UL17;protein_id=AAR31644.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '136018', '137802', '.', '+', '.', 'ID=UL93_cds1;Parent=UL93_mRNA;Name=UL93.1;Product=UL93\n')
+Start positions: 136018 136018
+Stop positions: 137802 137802
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '137660', '138697', '.', '+', '0', 'ID=cds-AAR31645.1;Parent=gene-HHV5wtgp087;Dbxref=NCBI_GP:AAR31645.1;Name=AAR31645.1;gbkey=CDS;gene=UL94;locus_tag=HHV5wtgp087;product=tegument protein UL16;protein_id=AAR31645.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '137660', '138697', '.', '+', '.', 'ID=UL16_cds1;Parent=UL16_mRNA;Name=UL16.1;Product=UL16\n')
+Start positions: 137660 137660
+Stop positions: 138697 138697
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '139696', '141297', '.', '+', '0', 'ID=cds-AAR31646.1;Parent=gene-HHV5wtgp088;Dbxref=NCBI_GP:AAR31646.1;Name=AAR31646.1;gbkey=CDS;gene=UL95;locus_tag=HHV5wtgp088;product=protein UL95;protein_id=AAR31646.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '139696', '141297', '.', '+', '.', 'ID=UL95_cds1;Parent=UL95_mRNA;Name=UL95.1;Product=UL95\n')
+Start positions: 139696 139696
+Stop positions: 141297 141297
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '141294', '141677', '.', '+', '0', 'ID=cds-AAR31647.1;Parent=gene-HHV5wtgp089;Dbxref=NCBI_GP:AAR31647.1;Name=AAR31647.1;gbkey=CDS;gene=UL96;locus_tag=HHV5wtgp089;product=tegument protein UL14;protein_id=AAR31647.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '141294', '141677', '.', '+', '.', 'ID=UL96_cds1;Parent=UL96_mRNA;Name=UL96.1;Product=UL96\n')
+Start positions: 141294 141294
+Stop positions: 141677 141677
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '141798', '143921', '.', '+', '0', 'ID=cds-AAR31648.1;Parent=gene-HHV5wtgp090;Dbxref=NCBI_GP:AAR31648.1;Name=AAR31648.1;gbkey=CDS;gene=UL97;locus_tag=HHV5wtgp090;product=tegument serine/threonine protein kinase;protein_id=AAR31648.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '141798', '143921', '.', '+', '.', 'ID=UL97_cds1;Parent=UL97_mRNA;Name=UL97.1;Product=UL97\n')
+Start positions: 141798 141798
+Stop positions: 143921 143921
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '144015', '145769', '.', '+', '0', 'ID=cds-AAR31649.1;Parent=gene-HHV5wtgp091;Dbxref=NCBI_GP:AAR31649.1;Name=AAR31649.1;gbkey=CDS;gene=UL98;locus_tag=HHV5wtgp091;product=deoxyribonuclease;protein_id=AAR31649.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '144015', '145769', '.', '+', '.', 'ID=UL98_cds1;Parent=UL98_mRNA;Name=UL98.1;Product=UL98\n')
+Start positions: 144015 144015
+Stop positions: 145769 145769
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '145706', '146278', '.', '+', '0', 'ID=cds-AAR31650.1;Parent=gene-HHV5wtgp092;Dbxref=NCBI_GP:AAR31650.1;Name=AAR31650.1;gbkey=CDS;gene=UL99;locus_tag=HHV5wtgp092;product=myristylated tegument protein;protein_id=AAR31650.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '145706', '146278', '.', '+', '.', 'ID=UL99_cds1;Parent=UL99_mRNA;Name=UL99.1;Product=UL99\n')
+Start positions: 145706 145706
+Stop positions: 146278 146278
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '146538', '147653', '.', '-', '0', 'ID=cds-AAR31651.1;Parent=gene-HHV5wtgp093;Dbxref=NCBI_GP:AAR31651.1;Name=AAR31651.1;gbkey=CDS;gene=UL100;locus_tag=HHV5wtgp093;product=envelope glycoprotein M;protein_id=AAR31651.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '146538', '147653', '.', '-', '.', 'ID=UL100_cds1;Parent=UL100_mRNA;Name=UL100.1;Product=UL100\n')
+Start positions: 146538 146538
+Stop positions: 147653 147653
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '147831', '150452', '.', '+', '0', 'ID=cds-AAR31652.1;Parent=gene-HHV5wtgp094;Dbxref=NCBI_GP:AAR31652.1;Name=AAR31652.1;gbkey=CDS;gene=UL102;locus_tag=HHV5wtgp094;product=helicase-primase subunit;protein_id=AAR31652.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '147831', '150452', '.', '+', '.', 'ID=UL102_cds1;Parent=UL102_mRNA;Name=UL102.1;Product=UL102\n')
+Start positions: 147831 147831
+Stop positions: 150452 150452
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '150615', '151364', '.', '-', '0', 'ID=cds-AAR31653.1;Parent=gene-HHV5wtgp095;Dbxref=NCBI_GP:AAR31653.1;Name=AAR31653.1;gbkey=CDS;gene=UL103;locus_tag=HHV5wtgp095;product=tegument protein UL7;protein_id=AAR31653.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '150615', '151364', '.', '-', '.', 'ID=UL103_cds1;Parent=UL103_mRNA;Name=UL103.1;Product=UL103\n')
+Start positions: 150615 150615
+Stop positions: 151364 151364
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '151312', '153405', '.', '-', '0', 'ID=cds-AAR31654.1;Parent=gene-HHV5wtgp096;Dbxref=NCBI_GP:AAR31654.1;Name=AAR31654.1;gbkey=CDS;gene=UL104;locus_tag=HHV5wtgp096;product=capsid portal protein;protein_id=AAR31654.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '151312', '153405', '.', '-', '.', 'ID=UL104_cds1;Parent=UL104_mRNA;Name=UL104.1;Product=UL104\n')
+Start positions: 151312 151312
+Stop positions: 153405 153405
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '153233', '156103', '.', '+', '0', 'ID=cds-AAR31655.1;Parent=gene-HHV5wtgp097;Dbxref=NCBI_GP:AAR31655.1;Name=AAR31655.1;gbkey=CDS;gene=UL105;locus_tag=HHV5wtgp097;product=helicase-primase helicase subunit;protein_id=AAR31655.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '153233', '156103', '.', '+', '.', 'ID=UL105_cds1;Parent=UL105_mRNA;Name=UL105.1;Product=UL105\n')
+Start positions: 153233 153233
+Stop positions: 156103 156103
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '161003', '161185', '.', '+', '0', 'ID=cds-AAR31656.1;Parent=gene-HHV5wtgp098;Dbxref=NCBI_GP:AAR31656.1;Name=AAR31656.1;gbkey=CDS;gene=UL111A;locus_tag=HHV5wtgp098;product=interleukin-10;protein_id=AAR31656.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '161003', '161185', '.', '+', '.', 'ID=UL111A_cds1;Parent=UL111A_mRNA;Name=UL111A.1;Product=UL111A\n')
+Start positions: 161003 161003
+Stop positions: 161185 161185
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '161262', '161462', '.', '+', '0', 'ID=cds-AAR31656.1;Parent=gene-HHV5wtgp098;Dbxref=NCBI_GP:AAR31656.1;Name=AAR31656.1;gbkey=CDS;gene=UL111A;locus_tag=HHV5wtgp098;product=interleukin-10;protein_id=AAR31656.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '161262', '161462', '.', '+', '.', 'ID=UL111A_cds2;Parent=UL111A_mRNA;Name=UL111A.1;Product=UL111A\n')
+Start positions: 161262 161262
+Stop positions: 161462 161462
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '161546', '161692', '.', '+', '0', 'ID=cds-AAR31656.1;Parent=gene-HHV5wtgp098;Dbxref=NCBI_GP:AAR31656.1;Name=AAR31656.1;gbkey=CDS;gene=UL111A;locus_tag=HHV5wtgp098;product=interleukin-10;protein_id=AAR31656.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '161546', '161692', '.', '+', '.', 'ID=UL111A_cds3;Parent=UL111A_mRNA;Name=UL111A.1;Product=UL111A\n')
+Start positions: 161546 161546
+Stop positions: 161692 161692
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '161917', '162673', '.', '+', '0', 'ID=cds-AAR31657.1;Parent=gene-HHV5wtgp099;Dbxref=NCBI_GP:AAR31657.1;Name=AAR31657.1;gbkey=CDS;gene=UL112;locus_tag=HHV5wtgp099;product=protein UL112;protein_id=AAR31657.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '161917', '162673', '.', '+', '.', 'ID=UL112_cds1;Parent=UL112_mRNA;Name=UL112.1;Product=UL112\n')
+Start positions: 161917 161917
+Stop positions: 162673 162673
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '162831', '164128', '.', '+', '2', 'ID=cds-AAR31657.1;Parent=gene-HHV5wtgp099;Dbxref=NCBI_GP:AAR31657.1;Name=AAR31657.1;gbkey=CDS;gene=UL112;locus_tag=HHV5wtgp099;product=protein UL112;protein_id=AAR31657.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '162831', '164128', '.', '+', '.', 'ID=UL112_cds2;Parent=UL112_mRNA;Name=UL112.1;Product=UL112\n')
+Start positions: 162831 162831
+Stop positions: 164128 164128
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '164298', '165050', '.', '-', '0', 'ID=cds-AAR31658.1;Parent=gene-HHV5wtgp100;Dbxref=NCBI_GP:AAR31658.1;Name=AAR31658.1;gbkey=CDS;gene=UL114;locus_tag=HHV5wtgp100;product=uracil-DNA glycosylase;protein_id=AAR31658.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '164298', '165050', '.', '-', '.', 'ID=UL114_cds1;Parent=UL114_mRNA;Name=UL114.1;Product=UL114\n')
+Start positions: 164298 164298
+Stop positions: 165050 165050
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '165022', '165858', '.', '-', '0', 'ID=cds-AAR31659.1;Parent=gene-HHV5wtgp101;Dbxref=NCBI_GP:AAR31659.1;Name=AAR31659.1;gbkey=CDS;gene=UL115;locus_tag=HHV5wtgp101;product=envelope glycoprotein L;protein_id=AAR31659.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '165022', '165858', '.', '-', '.', 'ID=UL115_cds1;Parent=UL115_mRNA;Name=UL115.1;Product=UL115\n')
+Start positions: 165022 165022
+Stop positions: 165858 165858
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '165858', '166799', '.', '-', '0', 'ID=cds-AAR31660.1;Parent=gene-HHV5wtgp102;Dbxref=NCBI_GP:AAR31660.1;Name=AAR31660.1;gbkey=CDS;gene=UL116;locus_tag=HHV5wtgp102;product=protein UL116;protein_id=AAR31660.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '165858', '166799', '.', '-', '.', 'ID=UL116_cds1;Parent=UL116_mRNA;Name=UL116.1;Product=UL116\n')
+Start positions: 165858 165858
+Stop positions: 166799 166799
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '166796', '168073', '.', '-', '0', 'ID=cds-AAR31661.1;Parent=gene-HHV5wtgp103;Dbxref=NCBI_GP:AAR31661.1;Name=AAR31661.1;gbkey=CDS;gene=UL117;locus_tag=HHV5wtgp103;product=protein UL117;protein_id=AAR31661.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '166796', '168073', '.', '-', '.', 'ID=UL117_cds1;Parent=UL117_mRNA;Name=UL117.1;Product=UL117\n')
+Start positions: 166796 166796
+Stop positions: 168073 168073
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '168891', '169311', '.', '-', '0', 'ID=cds-AAR31662.1;Parent=gene-HHV5wtgp104;Dbxref=NCBI_GP:AAR31662.1;Name=AAR31662.1;Note=possibly related to UL120 family;gbkey=CDS;gene=UL119;locus_tag=HHV5wtgp104;product=membrane glycoprotein UL119;protein_id=AAR31662.1\n')
+No exact match for both start and stop positions found.Iterating for start or stop only matches...
+Found match with starting position: ('AY446894.2', 'exonerate', 'CDS', '168891', '169263', '.', '-', '.', 'ID=UL119_cds2;Parent=UL119_mRNA;Name=UL119.1;Product=UL119\n')
+Start positions: 168891 168891
+Stop positions: 169311 169263
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '168186', '168802', '.', '-', '2', 'ID=cds-AAR31662.1;Parent=gene-HHV5wtgp104;Dbxref=NCBI_GP:AAR31662.1;Name=AAR31662.1;Note=possibly related to UL120 family;gbkey=CDS;gene=UL119;locus_tag=HHV5wtgp104;product=membrane glycoprotein UL119;protein_id=AAR31662.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '168186', '168802', '.', '-', '.', 'ID=UL119_cds1;Parent=UL119_mRNA;Name=UL119.1;Product=UL119\n')
+Start positions: 168186 168186
+Stop positions: 168802 168802
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '169366', '169971', '.', '-', '0', 'ID=cds-AAR31663.1;Parent=gene-HHV5wtgp105;Dbxref=NCBI_GP:AAR31663.1;Name=AAR31663.1;Note=UL120 family;gbkey=CDS;gene=UL120;locus_tag=HHV5wtgp105;product=membrane protein UL120;protein_id=AAR31663.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '169366', '169971', '.', '-', '.', 'ID=UL120_cds1;Parent=UL120_mRNA;Name=UL120.1;Product=UL120\n')
+Start positions: 169366 169366
+Stop positions: 169971 169971
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '170022', '170564', '.', '-', '0', 'ID=cds-AAR31664.1;Parent=gene-HHV5wtgp106;Dbxref=NCBI_GP:AAR31664.1;Name=AAR31664.1;Note=UL120 family;gbkey=CDS;gene=UL121;locus_tag=HHV5wtgp106;product=membrane protein UL121;protein_id=AAR31664.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '170022', '170564', '.', '-', '.', 'ID=UL121_cds1;Parent=UL121_mRNA;Name=UL121.1;Product=UL121\n')
+Start positions: 170022 170022
+Stop positions: 170564 170564
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '174020', '174090', '.', '-', '0', 'ID=cds-AAR31665.1;Parent=gene-HHV5wtgp107;Dbxref=NCBI_GP:AAR31665.1;Name=AAR31665.1;gbkey=CDS;gene=UL122;locus_tag=HHV5wtgp107;product=regulatory protein IE2;protein_id=AAR31665.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '174020', '174090', '.', '-', '.', 'ID=UL123_cds3;Parent=UL123_mRNA;Name=UL123.1;Product=UL123\n')
+Start positions: 174020 174020
+Stop positions: 174090 174090
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '173719', '173903', '.', '-', '1', 'ID=cds-AAR31665.1;Parent=gene-HHV5wtgp107;Dbxref=NCBI_GP:AAR31665.1;Name=AAR31665.1;gbkey=CDS;gene=UL122;locus_tag=HHV5wtgp107;product=regulatory protein IE2;protein_id=AAR31665.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '173719', '173903', '.', '-', '.', 'ID=UL123_cds2;Parent=UL123_mRNA;Name=UL123.1;Product=UL123\n')
+Start positions: 173719 173719
+Stop positions: 173903 173903
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '170689', '172175', '.', '-', '2', 'ID=cds-AAR31665.1;Parent=gene-HHV5wtgp107;Dbxref=NCBI_GP:AAR31665.1;Name=AAR31665.1;gbkey=CDS;gene=UL122;locus_tag=HHV5wtgp107;product=regulatory protein IE2;protein_id=AAR31665.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '170689', '172175', '.', '-', '.', 'ID=UL122_cds1;Parent=UL122_mRNA;Name=UL122.1;Product=UL122\n')
+Start positions: 170689 170689
+Stop positions: 172175 172175
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '174123', '174575', '.', '+', '0', 'ID=cds-AAR31667.1;Parent=rna-HHV5wtgp109;Dbxref=NCBI_GP:AAR31667.1;Name=AAR31667.1;gbkey=CDS;gene=UL124;locus_tag=HHV5wtgp109;product=membrane protein UL124;protein_id=AAR31667.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '174123', '174575', '.', '+', '.', 'ID=UL124_cds1;Parent=UL124_mRNA;Name=UL124.1;Product=UL124\n')
+Start positions: 174123 174123
+Stop positions: 174575 174575
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '174020', '174090', '.', '-', '0', 'ID=cds-AAR31666.1;Parent=gene-HHV5wtgp108;Dbxref=NCBI_GP:AAR31666.1;Name=AAR31666.1;gbkey=CDS;gene=UL123;locus_tag=HHV5wtgp108;product=regulatory protein IE1;protein_id=AAR31666.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '174020', '174090', '.', '-', '.', 'ID=UL123_cds3;Parent=UL123_mRNA;Name=UL123.1;Product=UL123\n')
+Start positions: 174020 174020
+Stop positions: 174090 174090
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '173719', '173903', '.', '-', '1', 'ID=cds-AAR31666.1;Parent=gene-HHV5wtgp108;Dbxref=NCBI_GP:AAR31666.1;Name=AAR31666.1;gbkey=CDS;gene=UL123;locus_tag=HHV5wtgp108;product=regulatory protein IE1;protein_id=AAR31666.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '173719', '173903', '.', '-', '.', 'ID=UL123_cds2;Parent=UL123_mRNA;Name=UL123.1;Product=UL123\n')
+Start positions: 173719 173719
+Stop positions: 173903 173903
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '172329', '173548', '.', '-', '2', 'ID=cds-AAR31666.1;Parent=gene-HHV5wtgp108;Dbxref=NCBI_GP:AAR31666.1;Name=AAR31666.1;gbkey=CDS;gene=UL123;locus_tag=HHV5wtgp108;product=regulatory protein IE1;protein_id=AAR31666.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '172329', '173548', '.', '-', '.', 'ID=UL123_cds1;Parent=UL123_mRNA;Name=UL123.1;Product=UL123\n')
+Start positions: 172329 172329
+Stop positions: 173548 173548
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '176984', '177628', '.', '-', '0', 'ID=cds-AAR31669.1;Parent=gene-HHV5wtgp111;Dbxref=NCBI_GP:AAR31669.1;Name=AAR31669.1;gbkey=CDS;gene=UL130;locus_tag=HHV5wtgp111;product=envelope glycoprotein UL130;protein_id=AAR31669.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '176984', '177628', '.', '-', '.', 'ID=UL130_cds1;Parent=UL130_mRNA;Name=UL130.1;Product=UL130\n')
+Start positions: 176984 176984
+Stop positions: 177628 177628
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '177911', '178146', '.', '-', '0', 'ID=cds-AAR31670.1;Parent=gene-HHV5wtgp112;Dbxref=NCBI_GP:AAR31670.1;Name=AAR31670.1;gbkey=CDS;gene=UL131A;locus_tag=HHV5wtgp112;product=envelope protein UL131A;protein_id=AAR31670.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '177911', '178146', '.', '-', '.', 'ID=UL131A_cds2;Parent=UL131A_mRNA;Name=UL131A.1;Product=UL131A\n')
+Start positions: 177911 177911
+Stop positions: 178146 178146
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '177649', '177802', '.', '-', '1', 'ID=cds-AAR31670.1;Parent=gene-HHV5wtgp112;Dbxref=NCBI_GP:AAR31670.1;Name=AAR31670.1;gbkey=CDS;gene=UL131A;locus_tag=HHV5wtgp112;product=envelope protein UL131A;protein_id=AAR31670.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '177649', '177802', '.', '-', '.', 'ID=UL131A_cds1;Parent=UL131A_mRNA;Name=UL131A.1;Product=UL131A\n')
+Start positions: 177649 177649
+Stop positions: 177802 177802
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '178252', '179064', '.', '-', '0', 'ID=cds-AAR31671.1;Parent=gene-HHV5wtgp113;Dbxref=NCBI_GP:AAR31671.1;Name=AAR31671.1;gbkey=CDS;gene=UL132;locus_tag=HHV5wtgp113;product=envelope glycoprotein UL132;protein_id=AAR31671.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '178252', '179064', '.', '-', '.', 'ID=UL132_cds1;Parent=UL132_mRNA;Name=UL132.1;Product=UL132\n')
+Start positions: 178252 178252
+Stop positions: 179064 179064
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '179141', '180091', '.', '-', '0', 'ID=cds-AAR31672.1;Parent=gene-HHV5wtgp114;Dbxref=NCBI_GP:AAR31672.1;Name=AAR31672.1;gbkey=CDS;gene=UL148;locus_tag=HHV5wtgp114;product=membrane protein UL148;protein_id=AAR31672.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '179141', '180091', '.', '-', '.', 'ID=UL148_cds1;Parent=UL148_mRNA;Name=UL148.1;Product=UL148\n')
+Start positions: 179141 179141
+Stop positions: 180091 180091
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '180160', '180387', '.', '-', '0', 'ID=cds-AAR31673.1;Parent=gene-HHV5wtgp115;Dbxref=NCBI_GP:AAR31673.1;Name=AAR31673.1;gbkey=CDS;gene=UL147A;locus_tag=HHV5wtgp115;product=membrane protein UL147A;protein_id=AAR31673.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '180160', '180387', '.', '-', '.', 'ID=UL147A_cds1;Parent=UL147A_mRNA;Name=UL147A.1;Product=UL147A\n')
+Start positions: 180160 180160
+Stop positions: 180387 180387
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '180390', '180869', '.', '-', '0', 'ID=cds-AAR31674.1;Parent=gene-HHV5wtgp116;Dbxref=NCBI_GP:AAR31674.1;Name=AAR31674.1;Note=CXCL family;gbkey=CDS;gene=UL147;locus_tag=HHV5wtgp116;product=chemokine vCXCL2;protein_id=AAR31674.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '180390', '180869', '.', '-', '.', 'ID=UL147_cds1;Parent=UL147_mRNA;Name=UL147.1;Product=UL147\n')
+Start positions: 180390 180390
+Stop positions: 180869 180869
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '180930', '181292', '.', '-', '0', 'ID=cds-AAR31675.1;Parent=gene-HHV5wtgp117;Dbxref=NCBI_GP:AAR31675.1;Name=AAR31675.1;Note=CXCL family;gbkey=CDS;gene=UL146;locus_tag=HHV5wtgp117;product=chemokine vCXCL1;protein_id=AAR31675.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '180930', '181292', '.', '-', '.', 'ID=UL146_cds1;Parent=UL146_mRNA;Name=UL146.1;Product=UL146\n')
+Start positions: 180930 180930
+Stop positions: 181292 181292
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '181573', '181965', '.', '-', '0', 'ID=cds-AAR31676.1;Parent=gene-HHV5wtgp118;Dbxref=NCBI_GP:AAR31676.1;Name=AAR31676.1;Note=RL1 family;gbkey=CDS;gene=UL145;locus_tag=HHV5wtgp118;product=protein UL145;protein_id=AAR31676.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '181573', '181965', '.', '-', '.', 'ID=UL145_cds1;Parent=UL145_mRNA;Name=UL145.1;Product=UL145\n')
+Start positions: 181573 181573
+Stop positions: 181965 181965
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '182206', '182736', '.', '-', '0', 'ID=cds-AAR31677.1;Parent=gene-HHV5wtgp119;Dbxref=NCBI_GP:AAR31677.1;Name=AAR31677.1;gbkey=CDS;gene=UL144;locus_tag=HHV5wtgp119;product=membrane glycoprotein UL144;protein_id=AAR31677.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '182206', '182736', '.', '-', '.', 'ID=UL144_cds1;Parent=UL144_mRNA;Name=UL144.1;Product=UL144\n')
+Start positions: 182206 182206
+Stop positions: 182736 182736
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '193200', '193542', '.', '+', '0', 'ID=cds-AEJ33669.1;Parent=rna-HHV5wtgr005;Dbxref=NCBI_GP:AEJ33669.1;Name=AEJ33669.1;gbkey=CDS;gene=UL150A;product=protein UL150A;protein_id=AEJ33669.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '193200', '193542', '.', '+', '.', 'ID=UL150A_cds1;Parent=UL150A_mRNA;Name=UL150A.1;Product=UL150A\n')
+Start positions: 193200 193200
+Stop positions: 193542 193542
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '193654', '194126', '.', '+', '2', 'ID=cds-AEJ33669.1;Parent=rna-HHV5wtgr005;Dbxref=NCBI_GP:AEJ33669.1;Name=AEJ33669.1;gbkey=CDS;gene=UL150A;product=protein UL150A;protein_id=AEJ33669.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '193654', '194126', '.', '+', '.', 'ID=UL150A_cds2;Parent=UL150A_mRNA;Name=UL150A.1;Product=UL150A\n')
+Start positions: 193654 193654
+Stop positions: 194126 194126
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '183406', '184323', '.', '-', '0', 'ID=cds-AAR31678.1;Parent=gene-HHV5wtgp120;Dbxref=NCBI_GP:AAR31678.1;Name=AAR31678.1;Note=MHC family;gbkey=CDS;gene=UL142;locus_tag=HHV5wtgp120;product=membrane glycoprotein UL142;protein_id=AAR31678.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '183406', '184323', '.', '-', '.', 'ID=UL142_cds1;Parent=UL142_mRNA;Name=UL142.1;Product=UL142\n')
+Start positions: 183406 183406
+Stop positions: 184323 184323
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '184396', '185412', '.', '-', '0', 'ID=cds-AAR31679.1;Parent=gene-HHV5wtgp121;Dbxref=NCBI_GP:AAR31679.1;Name=AAR31679.1;Note=UL14 family;gbkey=CDS;gene=UL141;locus_tag=HHV5wtgp121;product=membrane glycoprotein UL141;protein_id=AAR31679.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '184396', '185412', '.', '-', '.', 'ID=UL141_cds1;Parent=UL141_mRNA;Name=UL141.1;Product=UL141\n')
+Start positions: 184396 184396
+Stop positions: 185412 185412
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '185705', '186280', '.', '-', '0', 'ID=cds-AAR31680.1;Parent=gene-HHV5wtgp122;Dbxref=NCBI_GP:AAR31680.1;Name=AAR31680.1;gbkey=CDS;gene=UL140;locus_tag=HHV5wtgp122;product=protein UL140;protein_id=AAR31680.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '185705', '186280', '.', '-', '.', 'ID=UL140_cds1;Parent=UL140_mRNA;Name=UL140.1;Product=UL140\n')
+Start positions: 185705 185705
+Stop positions: 186280 186280
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '186462', '186878', '.', '-', '0', 'ID=cds-AAR31681.1;Parent=gene-HHV5wtgp123;Dbxref=NCBI_GP:AAR31681.1;Name=AAR31681.1;gbkey=CDS;gene=UL139;locus_tag=HHV5wtgp123;product=membrane glycoprotein UL139;protein_id=AAR31681.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '186462', '186878', '.', '-', '.', 'ID=UL139_cds1;Parent=UL139_mRNA;Name=UL139.1;Product=UL139\n')
+Start positions: 186462 186462
+Stop positions: 186878 186878
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '187441', '187950', '.', '-', '0', 'ID=cds-AAR31682.1;Parent=gene-HHV5wtgp124;Dbxref=NCBI_GP:AAR31682.1;Name=AAR31682.1;gbkey=CDS;gene=UL138;locus_tag=HHV5wtgp124;product=protein UL138;protein_id=AAR31682.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '187441', '187950', '.', '-', '.', 'ID=UL138_cds1;Parent=UL138_mRNA;Name=UL138.1;Product=UL138\n')
+Start positions: 187441 187441
+Stop positions: 187950 187950
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '188033', '188755', '.', '-', '0', 'ID=cds-AAR31683.1;Parent=gene-HHV5wtgp125;Dbxref=NCBI_GP:AAR31683.1;Name=AAR31683.1;gbkey=CDS;gene=UL136;locus_tag=HHV5wtgp125;product=protein UL136;protein_id=AAR31683.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '188033', '188755', '.', '-', '.', 'ID=UL136_cds1;Parent=UL136_mRNA;Name=UL136.1;Product=UL136\n')
+Start positions: 188033 188033
+Stop positions: 188755 188755
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '188846', '189772', '.', '-', '0', 'ID=cds-AAR31684.1;Parent=gene-HHV5wtgp126;Dbxref=NCBI_GP:AAR31684.1;Name=AAR31684.1;gbkey=CDS;gene=UL135;locus_tag=HHV5wtgp126;product=protein UL135;protein_id=AAR31684.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '188846', '189772', '.', '-', '.', 'ID=UL135_cds1;Parent=UL135_mRNA;Name=UL135.1;Product=UL135\n')
+Start positions: 188846 188846
+Stop positions: 189772 189772
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '189949', '190722', '.', '-', '0', 'ID=cds-AAR31685.1;Parent=gene-HHV5wtgp127;Dbxref=NCBI_GP:AAR31685.1;Name=AAR31685.1;gbkey=CDS;gene=UL133;locus_tag=HHV5wtgp127;product=protein UL133;protein_id=AAR31685.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '189949', '190722', '.', '-', '.', 'ID=UL133_cds1;Parent=UL133_mRNA;Name=UL133.1;Product=UL133\n')
+Start positions: 189949 189949
+Stop positions: 190722 190722
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '190818', '191060', '.', '-', '0', 'ID=cds-AAR31686.1;Parent=gene-HHV5wtgp128;Dbxref=NCBI_GP:AAR31686.1;Name=AAR31686.1;gbkey=CDS;gene=UL148A;locus_tag=HHV5wtgp128;product=protein UL148A;protein_id=AAR31686.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '190818', '191060', '.', '-', '.', 'ID=UL148A_cds1;Parent=UL148A_mRNA;Name=UL148A.1;Product=UL148A\n')
+Start positions: 190818 190818
+Stop positions: 191060 191060
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '191190', '191432', '.', '-', '0', 'ID=cds-AAR31687.1;Parent=gene-HHV5wtgp129;Dbxref=NCBI_GP:AAR31687.1;Name=AAR31687.1;gbkey=CDS;gene=UL148B;locus_tag=HHV5wtgp129;product=protein UL148B;protein_id=AAR31687.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '191190', '191432', '.', '-', '.', 'ID=UL148B_cds1;Parent=UL148B_mRNA;Name=UL148B.1;Product=UL148B\n')
+Start positions: 191190 191190
+Stop positions: 191432 191432
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '191522', '191755', '.', '+', '0', 'ID=cds-AAR31688.1;Parent=gene-HHV5wtgp130;Dbxref=NCBI_GP:AAR31688.1;Name=AAR31688.1;gbkey=CDS;gene=UL148C;locus_tag=HHV5wtgp130;product=protein UL148C;protein_id=AAR31688.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '191522', '191755', '.', '+', '.', 'ID=UL148C_cds1;Parent=UL148C_mRNA;Name=UL148C.1;Product=UL148C\n')
+Start positions: 191522 191522
+Stop positions: 191755 191755
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '192137', '192325', '.', '+', '0', 'ID=cds-AAR31689.1;Parent=rna-HHV5wtgp131;Dbxref=NCBI_GP:AAR31689.1;Name=AAR31689.1;gbkey=CDS;gene=UL148D;locus_tag=HHV5wtgp131;product=protein UL148D;protein_id=AAR31689.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '192137', '192325', '.', '+', '.', 'ID=UL148D_cds1;Parent=UL148D_mRNA;Name=UL148D.1;Product=UL148D\n')
+Start positions: 192137 192137
+Stop positions: 192325 192325
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '192341', '194260', '.', '-', '0', 'ID=cds-AAR31690.1;Parent=gene-HHV5wtgp132;Dbxref=NCBI_GP:AAR31690.1;Name=AAR31690.1;gbkey=CDS;gene=UL150;locus_tag=HHV5wtgp132;product=protein UL150;protein_id=AAR31690.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '192341', '194260', '.', '-', '.', 'ID=UL150_cds1;Parent=UL150_mRNA;Name=UL150.1;Product=UL150\n')
+Start positions: 192341 192341
+Stop positions: 194260 194260
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '195976', '198519', '.', '+', '0', 'ID=cds-AAR31691.1;Parent=gene-HHV5wtgp133;Dbxref=NCBI_GP:AAR31691.1;Name=AAR31691.1;Note=US22 family;gbkey=CDS;gene=IRS1;locus_tag=HHV5wtgp133;product=tegument protein IRS1;protein_id=AAR31691.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '195976', '198519', '.', '+', '.', 'ID=IRS1_cds1;Parent=IRS1_mRNA;Name=IRS1.1;Product=IRS1\n')
+Start positions: 195976 195976
+Stop positions: 198519 198519
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '198543', '199013', '.', '-', '0', 'ID=cds-AAR31692.1;Parent=gene-HHV5wtgp134;Dbxref=NCBI_GP:AAR31692.1;Name=AAR31692.1;Note=US1 family;gbkey=CDS;gene=US1;locus_tag=HHV5wtgp134;product=protein US1;protein_id=AAR31692.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '198543', '199013', '.', '-', '.', 'ID=US1_cds1;Parent=US1_mRNA;Name=US1.1;Product=US1\n')
+Start positions: 198543 198543
+Stop positions: 199013 199013
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '199331', '199930', '.', '-', '0', 'ID=cds-AAR31693.1;Parent=gene-HHV5wtgp135;Dbxref=NCBI_GP:AAR31693.1;Name=AAR31693.1;Note=US2 family;gbkey=CDS;gene=US2;locus_tag=HHV5wtgp135;product=membrane glycoprotein US2;protein_id=AAR31693.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '199331', '199930', '.', '-', '.', 'ID=US2_cds1;Parent=US2_mRNA;Name=US2.1;Product=US2\n')
+Start positions: 199331 199331
+Stop positions: 199930 199930
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '200345', '200905', '.', '-', '0', 'ID=cds-AAR31694.1;Parent=gene-HHV5wtgp136;Dbxref=NCBI_GP:AAR31694.1;Name=AAR31694.1;Note=US2 family;gbkey=CDS;gene=US3;locus_tag=HHV5wtgp136;product=membrane glycoprotein US3;protein_id=AAR31694.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '200345', '200905', '.', '-', '.', 'ID=US3_cds1;Parent=US3_mRNA;Name=US3.1;Product=US3\n')
+Start positions: 200345 200345
+Stop positions: 200905 200905
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '201615', '202163', '.', '-', '0', 'ID=cds-AAR31695.1;Parent=gene-HHV5wtgp137;Dbxref=NCBI_GP:AAR31695.1;Name=AAR31695.1;Note=US6 family;gbkey=CDS;gene=US6;locus_tag=HHV5wtgp137;product=membrane glycoprotein US6;protein_id=AAR31695.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '201615', '202163', '.', '-', '.', 'ID=US6_cds1;Parent=US6_mRNA;Name=US6.1;Product=US6\n')
+Start positions: 201615 201615
+Stop positions: 202163 202163
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '202589', '203266', '.', '-', '0', 'ID=cds-AAR31696.1;Parent=gene-HHV5wtgp138;Dbxref=NCBI_GP:AAR31696.1;Name=AAR31696.1;Note=US6 family;gbkey=CDS;gene=US7;locus_tag=HHV5wtgp138;product=membrane glycoprotein US7;protein_id=AAR31696.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '202589', '203266', '.', '-', '.', 'ID=US7_cds1;Parent=US7_mRNA;Name=US7.1;Product=US7\n')
+Start positions: 202589 202589
+Stop positions: 203266 203266
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '203469', '204152', '.', '-', '0', 'ID=cds-AAR31697.1;Parent=gene-HHV5wtgp139;Dbxref=NCBI_GP:AAR31697.1;Name=AAR31697.1;Note=US6 family;gbkey=CDS;gene=US8;locus_tag=HHV5wtgp139;product=membrane glycoprotein US8;protein_id=AAR31697.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '203469', '204152', '.', '-', '.', 'ID=US8_cds1;Parent=US8_mRNA;Name=US8.1;Product=US8\n')
+Start positions: 203469 203469
+Stop positions: 204152 204152
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '204167', '204910', '.', '-', '0', 'ID=cds-AAR31698.1;Parent=gene-HHV5wtgp140;Dbxref=NCBI_GP:AAR31698.1;Name=AAR31698.1;Note=US6 family;gbkey=CDS;gene=US9;locus_tag=HHV5wtgp140;product=membrane glycoprotein US9;protein_id=AAR31698.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '204167', '204910', '.', '-', '.', 'ID=US9_cds1;Parent=US9_mRNA;Name=US9.1;Product=US9\n')
+Start positions: 204167 204167
+Stop positions: 204910 204910
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '205296', '205853', '.', '-', '0', 'ID=cds-AAR31699.1;Parent=gene-HHV5wtgp141;Dbxref=NCBI_GP:AAR31699.1;Name=AAR31699.1;Note=US6 family;gbkey=CDS;gene=US10;locus_tag=HHV5wtgp141;product=membrane glycoprotein US10;protein_id=AAR31699.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '205296', '205853', '.', '-', '.', 'ID=US10_cds1;Parent=US10_mRNA;Name=US10.1;Product=US10\n')
+Start positions: 205296 205296
+Stop positions: 205853 205853
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '205929', '206576', '.', '-', '0', 'ID=cds-AAR31700.1;Parent=gene-HHV5wtgp142;Dbxref=NCBI_GP:AAR31700.1;Name=AAR31700.1;Note=US6 family;gbkey=CDS;gene=US11;locus_tag=HHV5wtgp142;product=membrane glycoprotein US11;protein_id=AAR31700.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '205929', '206576', '.', '-', '.', 'ID=US11_cds1;Parent=US11_mRNA;Name=US11.1;Product=US11\n')
+Start positions: 205929 205929
+Stop positions: 206576 206576
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '206762', '207607', '.', '-', '0', 'ID=cds-AAR31701.1;Parent=gene-HHV5wtgp143;Dbxref=NCBI_GP:AAR31701.1;Name=AAR31701.1;Note=US12 family;gbkey=CDS;gene=US12;locus_tag=HHV5wtgp143;product=membrane protein US12;protein_id=AAR31701.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '206762', '207607', '.', '-', '.', 'ID=US12_cds1;Parent=US12_mRNA;Name=US12.1;Product=US12\n')
+Start positions: 206762 206762
+Stop positions: 207607 207607
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '207687', '208472', '.', '-', '0', 'ID=cds-AAR31702.1;Parent=gene-HHV5wtgp144;Dbxref=NCBI_GP:AAR31702.1;Name=AAR31702.1;Note=US12 family;gbkey=CDS;gene=US13;locus_tag=HHV5wtgp144;product=membrane protein US13;protein_id=AAR31702.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '207687', '208472', '.', '-', '.', 'ID=US13_cds1;Parent=US13_mRNA;Name=US13.1;Product=US13\n')
+Start positions: 207687 207687
+Stop positions: 208472 208472
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '208541', '209473', '.', '-', '0', 'ID=cds-AAR31703.1;Parent=gene-HHV5wtgp145;Dbxref=NCBI_GP:AAR31703.1;Name=AAR31703.1;Note=US12 family;gbkey=CDS;gene=US14;locus_tag=HHV5wtgp145;product=membrane protein US14;protein_id=AAR31703.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '208541', '209473', '.', '-', '.', 'ID=US14_cds1;Parent=US14_mRNA;Name=US14.1;Product=US14\n')
+Start positions: 208541 208541
+Stop positions: 209473 209473
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '209518', '210306', '.', '-', '0', 'ID=cds-AAR31704.1;Parent=gene-HHV5wtgp146;Dbxref=NCBI_GP:AAR31704.1;Name=AAR31704.1;Note=US12 family;gbkey=CDS;gene=US15;locus_tag=HHV5wtgp146;product=membrane protein US15;protein_id=AAR31704.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '209518', '210306', '.', '-', '.', 'ID=US15_cds1;Parent=US15_mRNA;Name=US15.1;Product=US15\n')
+Start positions: 209518 209518
+Stop positions: 210306 210306
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '210366', '211295', '.', '-', '0', 'ID=cds-AAR31705.1;Parent=gene-HHV5wtgp147;Dbxref=NCBI_GP:AAR31705.1;Name=AAR31705.1;Note=US12 family;gbkey=CDS;gene=US16;locus_tag=HHV5wtgp147;product=membrane protein US16;protein_id=AAR31705.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '210366', '211295', '.', '-', '.', 'ID=US16_cds1;Parent=US16_mRNA;Name=US16.1;Product=US16\n')
+Start positions: 210366 210366
+Stop positions: 211295 211295
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '211440', '212321', '.', '-', '0', 'ID=cds-AAR31706.1;Parent=gene-HHV5wtgp148;Dbxref=NCBI_GP:AAR31706.1;Name=AAR31706.1;Note=US12 family;gbkey=CDS;gene=US17;locus_tag=HHV5wtgp148;product=membrane protein US17;protein_id=AAR31706.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '211440', '212321', '.', '-', '.', 'ID=US17_cds1;Parent=US17_mRNA;Name=US17.1;Product=US17\n')
+Start positions: 211440 211440
+Stop positions: 212321 212321
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '212589', '213413', '.', '-', '0', 'ID=cds-AAR31707.1;Parent=gene-HHV5wtgp149;Dbxref=NCBI_GP:AAR31707.1;Name=AAR31707.1;Note=US12 family;gbkey=CDS;gene=US18;locus_tag=HHV5wtgp149;product=membrane protein US18;protein_id=AAR31707.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '212589', '213413', '.', '-', '.', 'ID=US18_cds1;Parent=US18_mRNA;Name=US18.1;Product=US18\n')
+Start positions: 212589 212589
+Stop positions: 213413 213413
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '213551', '214273', '.', '-', '0', 'ID=cds-AAR31708.1;Parent=gene-HHV5wtgp150;Dbxref=NCBI_GP:AAR31708.1;Name=AAR31708.1;Note=US12 family;gbkey=CDS;gene=US19;locus_tag=HHV5wtgp150;product=membrane protein US19;protein_id=AAR31708.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '213551', '214273', '.', '-', '.', 'ID=US19_cds1;Parent=US19_mRNA;Name=US19.1;Product=US19\n')
+Start positions: 213551 213551
+Stop positions: 214273 214273
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '214320', '215084', '.', '-', '0', 'ID=cds-AAR31709.1;Parent=gene-HHV5wtgp151;Dbxref=NCBI_GP:AAR31709.1;Name=AAR31709.1;Note=US12 family;gbkey=CDS;gene=US20;locus_tag=HHV5wtgp151;product=membrane protein US20;protein_id=AAR31709.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '214320', '215084', '.', '-', '.', 'ID=US20_cds1;Parent=US20_mRNA;Name=US20.1;Product=US20\n')
+Start positions: 214320 214320
+Stop positions: 215084 215084
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '215191', '215922', '.', '-', '0', 'ID=cds-AAR31710.1;Parent=gene-HHV5wtgp152;Dbxref=NCBI_GP:AAR31710.1;Name=AAR31710.1;Note=US12 family;gbkey=CDS;gene=US21;locus_tag=HHV5wtgp152;product=membrane protein US21;protein_id=AAR31710.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '215191', '215922', '.', '-', '.', 'ID=US21_cds1;Parent=US21_mRNA;Name=US21.1;Product=US21\n')
+Start positions: 215191 215191
+Stop positions: 215922 215922
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '216099', '217829', '.', '-', '0', 'ID=cds-AAR31711.1;Parent=gene-HHV5wtgp153;Dbxref=NCBI_GP:AAR31711.1;Name=AAR31711.1;Note=US22 family;gbkey=CDS;gene=US22;locus_tag=HHV5wtgp153;product=tegument protein US22;protein_id=AAR31711.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '216099', '217829', '.', '-', '.', 'ID=US22_cds1;Parent=US22_mRNA;Name=US22.1;Product=US22\n')
+Start positions: 216099 216099
+Stop positions: 217829 217829
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '217943', '219721', '.', '-', '0', 'ID=cds-AAR31712.1;Parent=gene-HHV5wtgp154;Dbxref=NCBI_GP:AAR31712.1;Name=AAR31712.1;Note=US22 family;gbkey=CDS;gene=US23;locus_tag=HHV5wtgp154;product=protein US23;protein_id=AAR31712.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '217943', '219721', '.', '-', '.', 'ID=US23_cds1;Parent=US23_mRNA;Name=US23.1;Product=US23\n')
+Start positions: 217943 217943
+Stop positions: 219721 219721
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '219817', '221322', '.', '-', '0', 'ID=cds-AAR31713.1;Parent=gene-HHV5wtgp155;Dbxref=NCBI_GP:AAR31713.1;Name=AAR31713.1;Note=US22 family;gbkey=CDS;gene=US24;locus_tag=HHV5wtgp155;product=tegument protein US24;protein_id=AAR31713.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '219817', '221322', '.', '-', '.', 'ID=US24_cds1;Parent=US24_mRNA;Name=US24.1;Product=US24\n')
+Start positions: 219817 219817
+Stop positions: 221322 221322
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '221956', '223767', '.', '-', '0', 'ID=cds-AAR31714.1;Parent=gene-HHV5wtgp156;Dbxref=NCBI_GP:AAR31714.1;Name=AAR31714.1;Note=US22 family;gbkey=CDS;gene=US26;locus_tag=HHV5wtgp156;product=protein US26;protein_id=AAR31714.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '221956', '223767', '.', '-', '.', 'ID=US26_cds1;Parent=US26_mRNA;Name=US26.1;Product=US26\n')
+Start positions: 221956 221956
+Stop positions: 223767 223767
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '224133', '225227', '.', '+', '0', 'ID=cds-AAR31715.1;Parent=rna-HHV5wtgp157;Dbxref=NCBI_GP:AAR31715.1;Name=AAR31715.1;Note=GPCR family;gbkey=CDS;gene=US27;locus_tag=HHV5wtgp157;product=envelope glycoprotein US27;protein_id=AAR31715.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '224133', '225227', '.', '+', '.', 'ID=US27_cds1;Parent=US27_mRNA;Name=US27.1;Product=US27\n')
+Start positions: 224133 224133
+Stop positions: 225227 225227
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '225435', '226499', '.', '+', '0', 'ID=cds-AAR31716.1;Parent=gene-HHV5wtgp158;Dbxref=NCBI_GP:AAR31716.1;Name=AAR31716.1;Note=GPCR family;gbkey=CDS;gene=US28;locus_tag=HHV5wtgp158;product=envelope protein US28;protein_id=AAR31716.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '225435', '226499', '.', '+', '.', 'ID=US28_cds1;Parent=US28_mRNA;Name=US28.1;Product=US28\n')
+Start positions: 225435 225435
+Stop positions: 226499 226499
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '226662', '228050', '.', '+', '0', 'ID=cds-AAR31717.1;Parent=gene-HHV5wtgp159;Dbxref=NCBI_GP:AAR31717.1;Name=AAR31717.1;gbkey=CDS;gene=US29;locus_tag=HHV5wtgp159;product=membrane protein US29;protein_id=AAR31717.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '226662', '228050', '.', '+', '.', 'ID=US29_cds1;Parent=US29_mRNA;Name=US29.1;Product=US29\n')
+Start positions: 226662 226662
+Stop positions: 228050 228050
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '227854', '228903', '.', '+', '0', 'ID=cds-AAR31718.1;Parent=gene-HHV5wtgp160;Dbxref=NCBI_GP:AAR31718.1;Name=AAR31718.1;gbkey=CDS;gene=US30;locus_tag=HHV5wtgp160;product=membrane protein US30;protein_id=AAR31718.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '227854', '228903', '.', '+', '.', 'ID=US30_cds1;Parent=US30_mRNA;Name=US30.1;Product=US30\n')
+Start positions: 227854 227854
+Stop positions: 228903 228903
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '229018', '229503', '.', '+', '0', 'ID=cds-AAR31719.1;Parent=gene-HHV5wtgp161;Dbxref=NCBI_GP:AAR31719.1;Name=AAR31719.1;Note=US1 family;gbkey=CDS;gene=US31;locus_tag=HHV5wtgp161;product=protein US31;protein_id=AAR31719.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '229018', '229503', '.', '+', '.', 'ID=US31_cds1;Parent=US31_mRNA;Name=US31.1;Product=US31\n')
+Start positions: 229018 229018
+Stop positions: 229503 229503
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '229621', '230172', '.', '+', '0', 'ID=cds-AAR31720.1;Parent=gene-HHV5wtgp162;Dbxref=NCBI_GP:AAR31720.1;Name=AAR31720.1;Note=US1 family;gbkey=CDS;gene=US32;locus_tag=HHV5wtgp162;product=protein US32;protein_id=AAR31720.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '229621', '230172', '.', '+', '.', 'ID=US32_cds1;Parent=US32_mRNA;Name=US32.1;Product=US32\n')
+Start positions: 229621 229621
+Stop positions: 230172 230172
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '230374', '230547', '.', '+', '0', 'ID=cds-AEJ33670.1;Parent=rna-HHV5wtgr006;Dbxref=NCBI_GP:AEJ33670.1;Name=AEJ33670.1;gbkey=CDS;gene=US33A;locus_tag=HHV5wtgr006;product=protein US33A;protein_id=AEJ33670.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '230374', '230547', '.', '+', '.', 'ID=US33A_cds1;Parent=US33A_mRNA;Name=US33A.1;Product=US33A\n')
+Start positions: 230374 230374
+Stop positions: 230547 230547
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '230716', '231207', '.', '+', '0', 'ID=cds-AAR31721.1;Parent=gene-HHV5wtgp163;Dbxref=NCBI_GP:AAR31721.1;Name=AAR31721.1;gbkey=CDS;gene=US34;locus_tag=HHV5wtgp163;product=protein US34;protein_id=AAR31721.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '230716', '231207', '.', '+', '.', 'ID=US34_cds1;Parent=US34_mRNA;Name=US34.1;Product=US34\n')
+Start positions: 230716 230716
+Stop positions: 231207 231207
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '231201', '231395', '.', '+', '0', 'ID=cds-AAR31722.1;Parent=gene-HHV5wtgp164;Dbxref=NCBI_GP:AAR31722.1;Name=AAR31722.1;gbkey=CDS;gene=US34A;locus_tag=HHV5wtgp164;product=protein US34A;protein_id=AAR31722.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '231201', '231395', '.', '+', '.', 'ID=US34A_cds1;Parent=US34A_mRNA;Name=US34A.1;Product=US34A\n')
+Start positions: 231201 231201
+Stop positions: 231395 231395
+
+Searching for matching Sample CDS: ('AY446894.2', 'Genbank', 'CDS', '232393', '234759', '.', '-', '0', 'ID=cds-AAR31723.1;Parent=gene-HHV5wtgp165;Dbxref=NCBI_GP:AAR31723.1;Name=AAR31723.1;Note=US22 family;gbkey=CDS;gene=TRS1;locus_tag=HHV5wtgp165;product=tegument protein TRS1;protein_id=AAR31723.1\n')
+Perfect match with Template CDS: ('AY446894.2', 'exonerate', 'CDS', '232393', '234759', '.', '-', '.', 'ID=TRS1_cds1;Parent=TRS1_mRNA;Name=TRS1.1;Product=TRS1\n')
+Start positions: 232393 232393
+Stop positions: 234759 234759
+
+Comparison has been completed.
+Perfect matches (both positions):182
+Perfect match (one position only):4
+Matches (fuzzy filter):0
+No matches:2
+ 
+Filtering mismatches...
+
+Filtering mismatches for ('AY446894.2', 'Genbank', 'CDS', '5389', '5676', '.', '-', '0', 'ID=cds-AAR31562.1;Parent=rna-HHV5wtgp002;Dbxref=NCBI_GP:AAR31562.1;Name=AAR31562.1;Note=RL11 family;gbkey=CDS;gene=RL5A;locus_tag=HHV5wtgp002;product=protein RL5A;protein_id=AAR31562.1\n')
+Checking mismatch with ('AY446894.2', 'exonerate', 'CDS', '5389', '5673', '.', '-', '.', 'ID=RL5A_cds1;Parent=RL5A_mRNA;Name=RL5A.1;Product=RL5A\n')
+Start position mismatch length: 0
+Stop position mismatch length: 3
+Mismatches lower than threshold (3). Discarding...
+
+Filtering mismatches for ('AY446894.2', 'Genbank', 'CDS', '6025', '6360', '.', '-', '0', 'ID=cds-AAR31563.1;Parent=rna-HHV5wtgp003;Dbxref=NCBI_GP:AAR31563.1;Name=AAR31563.1;Note=RL11 family;gbkey=CDS;gene=RL6;locus_tag=HHV5wtgp003;product=protein RL6;protein_id=AAR31563.1\n')
+Checking mismatch with ('AY446894.2', 'exonerate', 'CDS', '6025', '6357', '.', '-', '.', 'ID=RL6_cds1;Parent=RL6_mRNA;Name=RL6.1;Product=RL6\n')
+Start position mismatch length: 0
+Stop position mismatch length: 3
+Mismatches lower than threshold (3). Discarding...
+
+Filtering mismatches for ('AY446894.2', 'Genbank', 'CDS', '104703', '105788', '.', '+', '0', 'ID=cds-AAR31724.1;Parent=gene-HHV5wtgp065;Dbxref=NCBI_GP:AAR31724.1;Name=AAR31724.1;gbkey=CDS;gene=UL71;locus_tag=HHV5wtgp065;product=tegument protein UL51;protein_id=AAR31724.1\n')
+Checking mismatch with ('AY446894.2', 'exonerate', 'CDS', '104703', '105791', '.', '+', '.', 'ID=UL71_cds1;Parent=UL71_mRNA;Name=UL71.1;Product=UL71\n')
+Start position mismatch length: 0
+Stop position mismatch length: 3
+Mismatches lower than threshold (3). Discarding...
+
+Filtering mismatches for ('AY446894.2', 'Genbank', 'CDS', '168891', '169311', '.', '-', '0', 'ID=cds-AAR31662.1;Parent=gene-HHV5wtgp104;Dbxref=NCBI_GP:AAR31662.1;Name=AAR31662.1;Note=possibly related to UL120 family;gbkey=CDS;gene=UL119;locus_tag=HHV5wtgp104;product=membrane glycoprotein UL119;protein_id=AAR31662.1\n')
+Checking mismatch with ('AY446894.2', 'exonerate', 'CDS', '168891', '169263', '.', '-', '.', 'ID=UL119_cds2;Parent=UL119_mRNA;Name=UL119.1;Product=UL119\n')
+Start position mismatch length: 0
+Stop position mismatch length: 48
+Mismatches bigger than threshold (3). Logging to mismatch file...
+
+Total mismatches: 4
+Mismatches Discarded (below 3 threshold ): 3
+Mismatches logged: 1
+
+Beginning gene counter...
+Getting gene names from file...
+Writing headers to gene counter output file...
+Writing IRS1 counter...
+Writing RL10 counter...
+Writing RL11 counter...
+Writing RL12 counter...
+Writing RL13 counter...
+Writing RL1 counter...
+Writing RL5A counter...
+Writing RL6 counter...
+Writing RL8A counter...
+Writing RL9A counter...
+Writing TRS1 counter...
+Writing UL100 counter...
+Writing UL102 counter...
+Writing UL103 counter...
+Writing UL104 counter...
+Writing UL105 counter...
+Writing UL10 counter...
+Writing UL111A counter...
+Writing UL112 counter...
+Writing UL114 counter...
+Writing UL115 counter...
+Writing UL116 counter...
+Writing UL117 counter...
+Writing UL119 counter...
+Writing UL11 counter...
+Writing UL120 counter...
+Writing UL121 counter...
+Writing UL122 counter...
+Writing UL123 counter...
+Writing UL124 counter...
+Writing UL130 counter...
+Writing UL131A counter...
+Writing UL132 counter...
+Writing UL133 counter...
+Writing UL135 counter...
+Writing UL136 counter...
+Writing UL138 counter...
+Writing UL139 counter...
+Writing UL13 counter...
+Writing UL140 counter...
+Writing UL141 counter...
+Writing UL142 counter...
+Writing UL144 counter...
+Writing UL145 counter...
+Writing UL146 counter...
+Writing UL147A counter...
+Writing UL147 counter...
+Writing UL148A counter...
+Writing UL148B counter...
+Writing UL148C counter...
+Writing UL148D counter...
+Writing UL148 counter...
+Writing UL14 counter...
+Writing UL150A counter...
+Writing UL150 counter...
+Writing UL15A counter...
+Writing UL16 counter...
+Writing UL17 counter...
+Writing UL18 counter...
+Writing UL19 counter...
+Writing UL1 counter...
+Writing UL20 counter...
+Writing UL21A counter...
+Writing UL22A counter...
+Writing UL23 counter...
+Writing UL24 counter...
+Writing UL25 counter...
+Writing UL26 counter...
+Writing UL27 counter...
+Writing UL29 counter...
+Writing UL2 counter...
+Writing UL30A counter...
+Writing UL30 counter...
+Writing UL31 counter...
+Writing UL32 counter...
+Writing UL33 counter...
+Writing UL34 counter...
+Writing UL35 counter...
+Writing UL36 counter...
+Writing UL37 counter...
+Writing UL38 counter...
+Writing UL40 counter...
+Writing UL41A counter...
+Writing UL42 counter...
+Writing UL43 counter...
+Writing UL44 counter...
+Writing UL45 counter...
+Writing UL46 counter...
+Writing UL47 counter...
+Writing UL48A counter...
+Writing UL48 counter...
+Writing UL49 counter...
+Writing UL4 counter...
+Writing UL50 counter...
+Writing UL51 counter...
+Writing UL52 counter...
+Writing UL53 counter...
+Writing UL54 counter...
+Writing UL55 counter...
+Writing UL56 counter...
+Writing UL57 counter...
+Writing UL5 counter...
+Writing UL69 counter...
+Writing UL6 counter...
+Writing UL70 counter...
+Writing UL71 counter...
+Writing UL72 counter...
+Writing UL73 counter...
+Writing UL74A counter...
+Writing UL74 counter...
+Writing UL75 counter...
+Writing UL76 counter...
+Writing UL77 counter...
+Writing UL78 counter...
+Writing UL79 counter...
+Writing UL7 counter...
+Writing UL80.5 counter...
+Writing UL80 counter...
+Writing UL82 counter...
+Writing UL83 counter...
+Writing UL84 counter...
+Writing UL85 counter...
+Writing UL86 counter...
+Writing UL87 counter...
+Writing UL88 counter...
+Writing UL89 counter...
+Writing UL8 counter...
+Writing UL91 counter...
+Writing UL92 counter...
+Writing UL93 counter...
+Writing UL94 counter...
+Writing UL95 counter...
+Writing UL96 counter...
+Writing UL97 counter...
+Writing UL98 counter...
+Writing UL99 counter...
+Writing UL9 counter...
+Writing US10 counter...
+Writing US11 counter...
+Writing US12 counter...
+Writing US13 counter...
+Writing US14 counter...
+Writing US15 counter...
+Writing US16 counter...
+Writing US17 counter...
+Writing US18 counter...
+Writing US19 counter...
+Writing US1 counter...
+Writing US20 counter...
+Writing US21 counter...
+Writing US22 counter...
+Writing US23 counter...
+Writing US24 counter...
+Writing US26 counter...
+Writing US27 counter...
+Writing US28 counter...
+Writing US29 counter...
+Writing US2 counter...
+Writing US30 counter...
+Writing US31 counter...
+Writing US32 counter...
+Writing US33A counter...
+Writing US34A counter...
+Writing US34 counter...
+Writing US3 counter...
+Writing US6 counter...
+Writing US7 counter...
+Writing US8 counter...
+Writing US9 counter...

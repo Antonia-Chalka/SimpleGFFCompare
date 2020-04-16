@@ -1,0 +1,2 @@
+Strain	Num_CDS_Automated	Num_CDS_Deposited	Num_Genes_Automated	Num_Genes_Deposited	Num_mRNA_Automated	Num_mRNA_Deposited	Other/MiscFeatures_Automated	Other/MiscFeatures_Deposited	Total_Features_Automated	Total_Features_Deposited	Perfect_Matches	No_Matches	Total_Mismatches	Mismatches_Discarded	Mismatches_Logged	Total_Mismatch_length(Logged_Only)	Avg_Mismatch_Length
+AY446894.2.fasta_annotation.gff	188	187	173	169	20	168	132	2	513	526	182	2	4	3	1	48	48.0

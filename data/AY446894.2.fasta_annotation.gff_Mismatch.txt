@@ -1,0 +1,9 @@
+WARNING: No matches found for:('AY446894.2', 'Genbank', 'CDS', '22754', '23446', '.', '+', '0', 'ID=cds-AAR31581.1;Parent=gene-HHV5wtgp021;Dbxref=NCBI_GP:AAR31581.1;Name=AAR31581.1;gbkey=CDS;gene=UL16;locus_tag=HHV5wtgp021;product=membrane glycoprotein UL16;protein_id=AAR31581.1\n').
+ 
+WARNING: No matches found for:('AY446894.2', 'Genbank', 'CDS', '37894', '38133', '.', '-', '0', 'ID=cds-AGL13510.1;Parent=rna-HHV5wtgp035a;Dbxref=NCBI_GP:AGL13510.1;Name=AGL13510.1;Note=UL30 family;exception=alternative start codon;experiment=EXISTENCE:ribosome profiling[23180859];gbkey=CDS;gene=UL30A;locus_tag=HHV5wtgp035a;product=protein UL30A;protein_id=AGL13510.1;transl_except=(pos:complement(38131..38133)%2Caa:Met)\n').
+ 
+Logging mismatches bigger than 3
+
+Mismatch Origin	ID=cds-AAR31662.1	168891	169311	
+Possible Match	ID=UL119_cds2	168891	169263	
+Mismatch Length 	Start: 0	Stop: 48

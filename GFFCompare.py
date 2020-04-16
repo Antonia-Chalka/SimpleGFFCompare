@@ -42,7 +42,7 @@ TemplateFile = open(make_path_sane(argument.TemplateFileName), "r")
 StrainName = os.path.basename(argument.TemplateFileName)
 LogFile = open(StrainName + "_" + "Log.txt", "w")
 MismatchFile = open(StrainName + "_" + "Mismatch.txt", "w")
-StrainStatsFile = open(StrainName + "_" + "StrainStats.txt", "w")
+StrainStatsFile = open(StrainName + "_" + "StrainStats.csv", "w")
 
 # Reading Sample file
 LogFile.write("Reading " + argument.SampleFileName + " as sample file... \n")
@@ -128,6 +128,10 @@ single_matches = 0
 fuzzy_matches = 0
 no_matches = 0
 
+true_positives = 0
+false_negatives = 0
+false_positives = 0
+
 mismatches = []  # List to put lists of possible matches in and filter later on
 
 for CDS1 in SampleCDSs:  # Iterate for each cds in sample file
@@ -142,6 +146,9 @@ for CDS1 in SampleCDSs:  # Iterate for each cds in sample file
                           "Start positions: " + str(CDS1[3]) + " " + str(CDS2[3]) + "\n" + 
                           "Stop positions: " + str(CDS1[4]) + " " + str(CDS2[4]) + "\n")
             found_pair = True  # To skip all other mismatch checks
+            # TODO Check if calculated correctly
+            true_positives += (CDS1[4] - CDS1[3])
+
             mismatch = []  # Empty mismatch list
             perfect_matches += 1
             
@@ -242,12 +249,15 @@ for mismatch in mismatches:
         CDS2 = mismatch[i]  # for ease of reference
         mismatch_length_start = abs(int(CDS1[3]) - int(CDS2[3]))
         mismatch_length_stop = abs(int(CDS1[4]) - int(CDS2[4]))
+
         LogFile.write("Checking mismatch with " + str(CDS2) + "\n" +
                       "Start position mismatch length: " + str(mismatch_length_start) + "\n"
                       "Stop position mismatch length: " + str(mismatch_length_stop) + "\n")
 
         # if mismatch is below threshold, do not log to mismatch file
         if (mismatch_length_start <= mismatch_permissibility) and (mismatch_length_stop <= mismatch_permissibility):
+            # TODO ADD TO TP/FP/FN totals
+
             log_mismatch = False
             LogFile.write("Mismatches lower than threshold (" + str(mismatch_permissibility) + "). Discarding...\n")
             
@@ -259,6 +269,21 @@ for mismatch in mismatches:
         MismatchFile.write("\nMismatch Origin\t" + CDS1[8].split(";")[0] + "\t" + CDS1[3] + "\t" + CDS1[4] + "\t\n")
         for i in range(1, len(mismatch)):
             CDS2 = mismatch[i]
+            mismatch_length_start = int(CDS1[3]) - int(CDS2[3])
+            mismatch_length_stop = int(CDS1[4]) - int(CDS2[4])
+            # TODO TEST IF FP/FN WORKS
+            if mismatch_length_start > 0:  # negative
+                false_negatives += mismatch_length_start
+            elif mismatch_length_start < 0:  # positive
+                false_positives += mismatch_length_start
+
+            if mismatch_length_stop > 0:  # negative
+                false_negatives += mismatch_length_stop
+            elif mismatch_length_stop < 0:  # positive
+                false_positives += mismatch_length_stop
+            # TODO IMPLEMENT TP
+            # true_positives =
+
             MismatchFile.write("Possible Match\t" + CDS2[8].split(";")[0] + "\t" + CDS2[3] + "\t" + CDS2[4] + "\t\n" +
                                "Mismatch Length \tStart: " + str(mismatch_length_start) + "\tStop: " +
                                str(mismatch_length_stop) + "\n")
